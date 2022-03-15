@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:elevation="4dp"
+    app:cardCornerRadius="5dp"
+    app:cardUseCompatPadding="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="760dp"
+            android:layout_height="150dp"
+            android:text="@string/tv2"
+            android:textSize="22dp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="270dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="47dp"
+            android:layout_toRightOf="@id/textView6"
+            app:srcCompat="@drawable/gym_removebg_preview_removebg_preview" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="849dp"
+            android:layout_height="150dp"
+            android:layout_alignTop="@id/textView6"
+            android:layout_marginTop="150dp"
+            android:text="@string/tv3" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="149dp"
+            android:layout_height="78dp"
+            android:layout_below="@+id/imageView6"
+            android:layout_marginLeft="51dp"
+            android:layout_marginTop="55dp"
+            android:layout_toRightOf="@id/textView9"
+            android:text="Button" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
