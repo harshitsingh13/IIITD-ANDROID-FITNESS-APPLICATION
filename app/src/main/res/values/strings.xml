@@ -7,4 +7,15 @@
     <string name="tv3"></string>
     <string name="tv4"></string>
     <string name="tv5"></string>
+
+    <string name="ex1">Frequency: </string>
+    <string name="ex2">Time in seconds: </string>
+    <string name="ex3">Frequency: </string>
+    <string name="ex4">Frequency: </string>
+    <string name="ex5">Frequency: </string>
+    <string name="ex6">Frequency: </string>
+    <string name="ex7">Frequency: </string>
+    <string name="ex8">Frequency: </string>
+    <string name="ex9">Frequency: </string>
+    <string name="ex10">Frequency: </string>
 </resources>

@@ -3,10 +3,13 @@ package com.mc2022.template;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -23,7 +26,8 @@ public class monthly_plan extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
-
+    day1 d1=new day1();
+    Button b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11,b12,b13,b14,b15,b16,b17,b18,b19,b20,b21,b22,b23,b24,b25,b26,b27,b28,b29,b30;
     public monthly_plan() {
         // Required empty public constructor
     }
@@ -59,6 +63,494 @@ public class monthly_plan extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_monthly_plan, container, false);
+        View view=inflater.inflate(R.layout.fragment_monthly_plan, container, false);
+        b1=(Button) view.findViewById(R.id.day1);//defining button for 'start service' button functionality
+        b1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.count=0;
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout, d1);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
+        b2=(Button) view.findViewById(R.id.day2);//defining button for 'start service' button functionality
+        b2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.count=3;
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout,d1);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
+        b3=(Button) view.findViewById(R.id.day3);//defining button for 'start service' button functionality
+        b3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.count=6;
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout,d1);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
+
+        b4=(Button) view.findViewById(R.id.day4);//defining button for 'start service' button functionality
+        b4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.count=9;
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout,d1);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
+        b5=(Button) view.findViewById(R.id.day5);//defining button for 'start service' button functionality
+        b5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.count=12;
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout,d1);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
+        b6=(Button) view.findViewById(R.id.day6);//defining button for 'start service' button functionality
+        b6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.count=15;
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout, d1);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
+        b7=(Button) view.findViewById(R.id.day7);//defining button for 'start service' button functionality
+        b7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.count=18;
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout,d1);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
+        b8=(Button) view.findViewById(R.id.day8);//defining button for 'start service' button functionality
+        b8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.count=21;
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout,d1);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
+
+        b9=(Button) view.findViewById(R.id.day9);//defining button for 'start service' button functionality
+        b9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.count=24;
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout,d1);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
+        b10=(Button) view.findViewById(R.id.day10);//defining button for 'start service' button functionality
+        b10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.count=27;
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout,d1);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
+        b11=(Button) view.findViewById(R.id.day11);//defining button for 'start service' button functionality
+        b11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.count=30;
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout, d1);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
+        b12=(Button) view.findViewById(R.id.day12);//defining button for 'start service' button functionality
+        b12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.count=33;
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout,d1);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
+        b13=(Button) view.findViewById(R.id.day13);//defining button for 'start service' button functionality
+        b13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.count=36;
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout,d1);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
+
+        b14=(Button) view.findViewById(R.id.day14);//defining button for 'start service' button functionality
+        b14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.count=39;
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout,d1);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
+        b15=(Button) view.findViewById(R.id.day15);//defining button for 'start service' button functionality
+        b15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.count=42;
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout,d1);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
+        b16=(Button) view.findViewById(R.id.day16);//defining button for 'start service' button functionality
+        b16.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.count=45;
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout, d1);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
+        b17=(Button) view.findViewById(R.id.day17);//defining button for 'start service' button functionality
+        b17.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.count=48;
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout,d1);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
+        b18=(Button) view.findViewById(R.id.day18);//defining button for 'start service' button functionality
+        b18.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.count=51;
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout,d1);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
+
+        b19=(Button) view.findViewById(R.id.day19);//defining button for 'start service' button functionality
+        b19.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.count=54;
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout,d1);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
+        b20=(Button) view.findViewById(R.id.day20);//defining button for 'start service' button functionality
+        b20.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.count=57;
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout,d1);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
+        b21=(Button) view.findViewById(R.id.day21);//defining button for 'start service' button functionality
+        b21.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.count=60;
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout, d1);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
+        b22=(Button) view.findViewById(R.id.day22);//defining button for 'start service' button functionality
+        b22.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.count=63;
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout,d1);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
+        b23=(Button) view.findViewById(R.id.day23);//defining button for 'start service' button functionality
+        b23.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.count=66;
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout,d1);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
+
+        b24=(Button) view.findViewById(R.id.day24);//defining button for 'start service' button functionality
+        b24.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.count=69;
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout,d1);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
+        b25=(Button) view.findViewById(R.id.day25);//defining button for 'start service' button functionality
+        b25.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.count=72;
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout,d1);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
+        b26=(Button) view.findViewById(R.id.day26);//defining button for 'start service' button functionality
+        b26.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.count=75;
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout, d1);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
+        b27=(Button) view.findViewById(R.id.day27);//defining button for 'start service' button functionality
+        b27.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.count=78;
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout,d1);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
+        b28=(Button) view.findViewById(R.id.day28);//defining button for 'start service' button functionality
+        b28.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.count=81;
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout,d1);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
+
+        b29=(Button) view.findViewById(R.id.day29);//defining button for 'start service' button functionality
+        b29.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.count=84;
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout,d1);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
+        b30=(Button) view.findViewById(R.id.day30);//defining button for 'start service' button functionality
+        b30.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MainActivity.count=87;
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout,d1);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
+
+        return view;
     }
 }

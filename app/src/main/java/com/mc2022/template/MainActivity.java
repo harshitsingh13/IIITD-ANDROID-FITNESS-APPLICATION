@@ -11,6 +11,17 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
+    public static int count=0;
+    public static int ex1=30;
+    public static int ex2=15;
+    public static int ex3=20;
+    public static int ex4=10;
+    public static int ex5=5;
+    public static int ex6=5;
+    public static int ex7=10;
+    public static int ex8=10;
+    public static int ex9=10;
+    public static int ex10=10;
     project1 p1=new project1();
     Button b1;
     @Override
