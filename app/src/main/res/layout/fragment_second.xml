@@ -6,9 +6,428 @@
     tools:context=".second">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textsecond"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/tt2"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/freq1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textsecond"
+            android:background="@color/underline"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Bridge Pose (Setu Bandha Sarvangasana)"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/freq1"
+            android:layout_gravity="left"
+            android:background="@color/teal_200"
+            android:src="@drawable/yoga18" />
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView1"
+            android:background="@color/underline"
+            android:text="Exercise Name : JUMPING JACK\nMain Muscle Group : Cardio\nType : Cardio\nEquipment : Body Only"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="italic" />
+
+        <View
+            android:id="@+id/u1"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/textView1"
+            android:background="@color/teal_200" />
+
+        <TextView
+            android:id="@+id/freq2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/u1"
+            android:background="@color/underline"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Triangle Pose (Utthita Trikonasana)"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/freq2"
+            android:layout_gravity="left"
+            android:background="@color/teal_200"
+            android:src="@drawable/yoga5" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView2"
+            android:background="@color/underline"
+            android:text="Exercise Name : PLANK\nMain Muscle Group : Abs\nType : Strength\nEquipment : Body Only"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="italic" />
+
+        <View
+            android:id="@+id/u2"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/textView2"
+            android:background="@color/teal_200" />
+
+        <TextView
+            android:id="@+id/freq3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/u2"
+            android:text="Triangle Pose (Utthita Trikonasana)"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="@color/underline"
+            android:textStyle="bold" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/freq3"
+            android:layout_gravity="left"
+            android:background="@color/teal_200"
+            android:src="@drawable/yoga6" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView3"
+            android:background="@color/underline"
+            android:text="Exercise Name : BODYWEIGHT SQUATS\nMain Muscle Group : Upper Legs\nType : Strength\nEquipment : Body Only"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:textSize="17dp" />
+
+    <View
+        android:id="@+id/u3"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/textView3"
+        android:background="@color/teal_200"/>
+
+        <TextView
+            android:id="@+id/freq4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/u3"
+            android:text="Standing Forward Bend (Uttanasana)"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="@color/underline"
+            android:textStyle="bold" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="left"
+        android:layout_below="@id/freq4"
+        android:background="@color/teal_200"
+        android:src="@drawable/yoga7" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView4"
+        android:text="Exercise Name : PUSH UPS\nMain Muscle Group : Chest\nType : Strength\nEquipment : Body Only"
+        android:textSize="17dp"
+        android:background="@color/underline"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
+
+        <View
+            android:id="@+id/u4"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/textView4"
+            android:background="@color/teal_200" />
+
+        <TextView
+            android:id="@+id/freq5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/u4"
+            android:text="Reverse Warrior (Viparita Virabhadrasana)"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="@color/underline"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="left"
+        android:layout_below="@id/freq5"
+        android:background="@color/teal_200"
+        android:src="@drawable/yoga8" />
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView5"
+        android:text="Exercise Name : DIPS\nMain Muscle Group : Triceps\nType : Strength\nEquipment : Machine Strength"
+        android:textSize="17dp"
+        android:background="@color/underline"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
+
+    <View
+        android:id="@+id/u5"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/textView5"
+        android:background="@color/teal_200"/>
+
+    <TextView
+        android:id="@+id/freq6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/u5"
+        android:text="Garland Pose (Malasana)"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@color/underline"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="left"
+        android:layout_below="@id/freq6"
+        android:background="@color/teal_200"
+        android:src="@drawable/yoga9" />
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView6"
+        android:text="Exercise Name : BICEP CURLS\nMain Muscle Group : Biceps\nType : Strength\nEquipment : Dumbbell"
+        android:textSize="17dp"
+        android:background="@color/underline"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
+
+    <View
+        android:id="@+id/u6"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/textView6"
+        android:background="@color/teal_200"/>
+
+    <TextView
+        android:id="@+id/freq7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/u6"
+        android:text="Pyramid Pose (Parsvottanasana)"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@color/underline"
+        android:textStyle="bold" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="left"
+        android:layout_below="@id/freq7"
+        android:background="@color/teal_200"
+        android:src="@drawable/yoga11" />
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView7"
+        android:text="Exercise Name : CRUNCHES\nMain Muscle Group : Abs\nType : Strength\nEquipment : Body Only"
+        android:textSize="17dp"
+        android:background="@color/underline"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
+
+    <View
+        android:id="@+id/u7"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/textView7"
+        android:background="@color/teal_200"/>
+
+    <TextView
+        android:id="@+id/freq8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/u7"
+        android:text="Raised Hands Pose (Urdhva Hastasana)"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@color/underline"
+        android:textStyle="bold" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="left"
+        android:layout_below="@id/freq8"
+        android:background="@color/teal_200"
+        android:src="@drawable/yoga12" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView8"
+            android:background="@color/underline"
+            android:text="Exercise Name : SCISSOR KICK\nMain Muscle Group : Abs\nType : Strength\nEquipment : Body Only"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="italic" />
+
+    <View
+        android:id="@+id/u8"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/textView8"
+        android:background="@color/teal_200"/>
+
+    <TextView
+        android:id="@+id/freq9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/u8"
+        android:text="Low Lunge"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@color/underline"
+        android:textStyle="bold" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="left"
+        android:layout_below="@id/freq9"
+        android:background="@color/teal_200"
+        android:src="@drawable/yoga13" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView9"
+        android:text="Exercise Name : FIRE HYDRANTS\nMain Muscle Group : Abs and Gluteus\nType : Strength\nEquipment : Body Only"
+        android:textSize="17dp"
+        android:background="@color/underline"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
+
+    <View
+        android:id="@+id/u9"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/textView9"
+        android:background="@color/teal_200"/>
+
+    <TextView
+        android:id="@+id/freq10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/u9"
+        android:text="Downward Facing Dog Split"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@color/underline"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imageView10"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="left"
+        android:layout_below="@id/freq10"
+        android:background="@color/teal_200"
+        android:src="@drawable/yoga15" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView10"
+        android:text="Exercise Name : ASSISTED HYPEREXTENSION\nMain Muscle Group : Back\nType : Strength\nEquipment : Body Only"
+        android:textSize="17dp"
+        android:background="@color/underline"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
+
+    </RelativeLayout>
+    </ScrollView>
 
 </FrameLayout>

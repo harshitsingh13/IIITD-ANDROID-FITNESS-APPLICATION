@@ -19,9 +19,10 @@
                 android:id="@+id/textd"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
                 android:gravity="center"
                 android:text="@string/daytext"
-                android:layout_marginTop="10dp"
                 android:textColor="@color/black"
                 android:textSize="25dp"
                 android:textStyle="bold" />
@@ -60,18 +61,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/imageView1"
+                android:background="@color/underline"
                 android:text="Exercise Name : JUMPING JACK\nMain Muscle Group : Cardio\nType : Cardio\nEquipment : Body Only"
-                android:textSize="17dp"
-                android:background="@color/purple_200"
                 android:textColor="@color/black"
-                android:textStyle="bold" />
+                android:textSize="17dp"
+                android:textStyle="italic" />
 
             <View
                 android:id="@+id/u1"
                 android:layout_width="match_parent"
-                android:layout_height="10dp"
                 android:layout_below="@id/textView1"
-                android:background="@color/purple_700"/>
+                android:background="@color/teal_200"
+                android:layout_height="20dp"/>
 
             <TextView
                 android:id="@+id/freq2"
@@ -80,6 +81,7 @@
                 android:layout_below="@id/u1"
                 android:text="@string/ex2"
                 android:textColor="@color/black"
+                android:padding="10dp"
                 android:textSize="17dp"
                 android:textStyle="bold" />
 
@@ -108,18 +110,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/imageView2"
+                android:background="@color/underline"
                 android:text="Exercise Name : PLANK\nMain Muscle Group : Abs\nType : Strength\nEquipment : Body Only"
-                android:textSize="17dp"
-                android:background="@color/purple_200"
                 android:textColor="@color/black"
-                android:textStyle="bold" />
+                android:textSize="17dp"
+                android:textStyle="italic" />
 
             <View
                 android:id="@+id/u2"
                 android:layout_width="match_parent"
-                android:layout_height="10dp"
+                android:layout_height="20dp"
                 android:layout_below="@id/textView2"
-                android:background="@color/purple_700"/>
+                android:background="@color/teal_200" />
 
             <TextView
                 android:id="@+id/freq3"
@@ -155,18 +157,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/imageView3"
+                android:background="@color/underline"
                 android:text="Exercise Name : BODYWEIGHT SQUATS\nMain Muscle Group : Upper Legs\nType : Strength\nEquipment : Body Only"
-                android:textSize="17dp"
-                android:background="@color/purple_200"
                 android:textColor="@color/black"
-                android:textStyle="bold" />
+                android:textSize="17dp"
+                android:textStyle="italic" />
 
             <View
                 android:id="@+id/u3"
                 android:layout_width="match_parent"
-                android:layout_height="10dp"
+                android:layout_height="20dp"
                 android:layout_below="@id/textView3"
-                android:background="@color/purple_700"/>
+                android:background="@color/teal_200"/>
 
             <TextView
                 android:id="@+id/freq4"
@@ -204,16 +206,16 @@
                 android:layout_below="@id/imageView4"
                 android:text="Exercise Name : PUSH UPS\nMain Muscle Group : Chest\nType : Strength\nEquipment : Body Only"
                 android:textSize="17dp"
-                android:background="@color/purple_200"
+                android:background="@color/underline"
                 android:textColor="@color/black"
-                android:textStyle="bold" />
+                android:textStyle="italic" />
 
             <View
                 android:id="@+id/u4"
                 android:layout_width="match_parent"
-                android:layout_height="10dp"
+                android:layout_height="20dp"
                 android:layout_below="@id/textView4"
-                android:background="@color/purple_700"/>
+                android:background="@color/teal_200"/>
 
             <TextView
                 android:id="@+id/freq5"
@@ -251,16 +253,16 @@
                 android:layout_below="@id/imageView5"
                 android:text="Exercise Name : DIPS\nMain Muscle Group : Triceps\nType : Strength\nEquipment : Machine Strength"
                 android:textSize="17dp"
-                android:background="@color/purple_200"
+                android:background="@color/underline"
                 android:textColor="@color/black"
-                android:textStyle="bold" />
+                android:textStyle="italic" />
 
             <View
                 android:id="@+id/u5"
                 android:layout_width="match_parent"
-                android:layout_height="10dp"
+                android:layout_height="20dp"
                 android:layout_below="@id/textView5"
-                android:background="@color/purple_700"/>
+                android:background="@color/teal_200"/>
 
             <TextView
                 android:id="@+id/freq6"
@@ -298,16 +300,16 @@
                 android:layout_below="@id/imageView6"
                 android:text="Exercise Name : BICEP CURLS\nMain Muscle Group : Biceps\nType : Strength\nEquipment : Dumbbell"
                 android:textSize="17dp"
-                android:background="@color/purple_200"
+                android:background="@color/underline"
                 android:textColor="@color/black"
-                android:textStyle="bold" />
+                android:textStyle="italic" />
 
             <View
                 android:id="@+id/u6"
                 android:layout_width="match_parent"
-                android:layout_height="10dp"
+                android:layout_height="20dp"
                 android:layout_below="@id/textView6"
-                android:background="@color/purple_700"/>
+                android:background="@color/teal_200"/>
 
             <TextView
                 android:id="@+id/freq7"
@@ -345,16 +347,16 @@
                 android:layout_below="@id/imageView7"
                 android:text="Exercise Name : CRUNCHES\nMain Muscle Group : Abs\nType : Strength\nEquipment : Body Only"
                 android:textSize="17dp"
-                android:background="@color/purple_200"
+                android:background="@color/underline"
                 android:textColor="@color/black"
-                android:textStyle="bold" />
+                android:textStyle="italic" />
 
             <View
                 android:id="@+id/u7"
                 android:layout_width="match_parent"
-                android:layout_height="10dp"
+                android:layout_height="20dp"
                 android:layout_below="@id/textView7"
-                android:background="@color/purple_700"/>
+                android:background="@color/teal_200"/>
 
             <TextView
                 android:id="@+id/freq8"
@@ -392,16 +394,16 @@
                 android:layout_below="@id/imageView8"
                 android:text="Exercise Name : SCISSOR KICK\nMain Muscle Group : Abs\nType : Strength\nEquipment : Body Only"
                 android:textSize="17dp"
-                android:background="@color/purple_200"
+                android:background="@color/underline"
                 android:textColor="@color/black"
-                android:textStyle="bold" />
+                android:textStyle="italic" />
 
             <View
                 android:id="@+id/u8"
                 android:layout_width="match_parent"
-                android:layout_height="10dp"
+                android:layout_height="20dp"
                 android:layout_below="@id/textView8"
-                android:background="@color/purple_700"/>
+                android:background="@color/teal_200"/>
 
             <TextView
                 android:id="@+id/freq9"
@@ -439,16 +441,16 @@
                 android:layout_below="@id/imageView9"
                 android:text="Exercise Name : FIRE HYDRANTS\nMain Muscle Group : Abs and Gluteus\nType : Strength\nEquipment : Body Only"
                 android:textSize="17dp"
-                android:background="@color/purple_200"
+                android:background="@color/underline"
                 android:textColor="@color/black"
-                android:textStyle="bold" />
+                android:textStyle="italic" />
 
             <View
                 android:id="@+id/u9"
                 android:layout_width="match_parent"
-                android:layout_height="10dp"
+                android:layout_height="20dp"
                 android:layout_below="@id/textView9"
-                android:background="@color/purple_700"/>
+                android:background="@color/teal_200"/>
 
             <TextView
                 android:id="@+id/freq10"
@@ -486,9 +488,9 @@
                 android:layout_below="@id/imageView10"
                 android:text="Exercise Name : ASSISTED HYPEREXTENSION\nMain Muscle Group : Back\nType : Strength\nEquipment : Body Only"
                 android:textSize="17dp"
-                android:background="@color/purple_200"
+                android:background="@color/underline"
                 android:textColor="@color/black"
-                android:textStyle="bold" />
+                android:textStyle="italic" />
 
         </RelativeLayout>
     </ScrollView>

@@ -59,6 +59,8 @@ public class have_time extends Fragment {
     }
 
     first f=new first();
+    second s=new second();
+    third t=new third();
     Button b1,b2,b3;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -72,6 +74,36 @@ public class have_time extends Fragment {
                 FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
                 fragmentTransaction.replace(R.id.frameLayout,f);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
+        b2=view.findViewById(R.id.button2);
+        b2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout,s);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
+        b3=view.findViewById(R.id.button3);
+        b3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout,t);
                 fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
                 //Intent intent=new Intent(MainActivity.this,Service_1.class);
