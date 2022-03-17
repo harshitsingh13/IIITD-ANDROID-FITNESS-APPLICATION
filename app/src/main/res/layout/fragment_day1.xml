@@ -16,27 +16,39 @@
             android:orientation="vertical" >
 
             <TextView
+                android:id="@+id/textd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/daytext"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
                 android:id="@+id/freq1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/ex1"
                 android:textColor="@color/black"
-                android:textSize="20dp"
+                android:layout_below="@+id/textd"
+                android:textSize="17dp"
                 android:textStyle="bold" />
 
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView1"
                 android:layout_width="200dp"
-                android:layout_height="100dp"
-                android:layout_gravity="left"
+                android:layout_height="150dp"
                 android:layout_below="@id/freq1"
+                android:layout_gravity="left"
                 android:background="@color/white"
                 android:src="@drawable/day19" />
 
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView11"
                 android:layout_width="200dp"
-                android:layout_height="100dp"
+                android:layout_height="150dp"
                 android:layout_gravity="left"
                 android:layout_toRightOf="@id/imageView1"
                 android:layout_below="@id/freq1"
@@ -46,10 +58,12 @@
             <TextView
                 android:id="@+id/textView1"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/imageView1"
-                android:text="Exercise name : Jumping Jacks\nMain Muscle Group : Cardio\nType : Cardio\nEquipment : Body Only"
-                android:textSize="20dp"
+                android:text="Exercise Name : JUMPING JACK\nMain Muscle Group : Cardio\nType : Cardio\nEquipment : Body Only"
+                android:textSize="17dp"
+                android:background="@color/purple_200"
+                android:textColor="@color/black"
                 android:textStyle="bold" />
 
             <View
@@ -57,7 +71,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="10dp"
                 android:layout_below="@id/textView1"
-                android:background="@color/underline"/>
+                android:background="@color/purple_700"/>
 
             <TextView
                 android:id="@+id/freq2"
@@ -66,14 +80,14 @@
                 android:layout_below="@id/u1"
                 android:text="@string/ex2"
                 android:textColor="@color/black"
-                android:textSize="20dp"
+                android:textSize="17dp"
                 android:textStyle="bold" />
 
 
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView2"
                 android:layout_width="200dp"
-                android:layout_height="100dp"
+                android:layout_height="150dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq2"
                 android:background="@color/white"
@@ -82,7 +96,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView22"
                 android:layout_width="200dp"
-                android:layout_height="100dp"
+                android:layout_height="150dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq2"
                 android:layout_toRightOf="@id/imageView2"
@@ -92,10 +106,12 @@
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/imageView2"
-                android:text="Exercise name : Plank\nMain Muscle Group : Abs\nType : Strength\nEquipment : Body Only"
-                android:textSize="20dp"
+                android:text="Exercise Name : PLANK\nMain Muscle Group : Abs\nType : Strength\nEquipment : Body Only"
+                android:textSize="17dp"
+                android:background="@color/purple_200"
+                android:textColor="@color/black"
                 android:textStyle="bold" />
 
             <View
@@ -103,7 +119,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="10dp"
                 android:layout_below="@id/textView2"
-                android:background="@color/underline"/>
+                android:background="@color/purple_700"/>
 
             <TextView
                 android:id="@+id/freq3"
@@ -112,13 +128,13 @@
                 android:layout_below="@id/u2"
                 android:text="@string/ex3"
                 android:textColor="@color/black"
-                android:textSize="20dp"
+                android:textSize="17dp"
                 android:textStyle="bold" />
 
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView3"
                 android:layout_width="200dp"
-                android:layout_height="100dp"
+                android:layout_height="150dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq3"
                 android:background="@color/white"
@@ -127,7 +143,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView33"
                 android:layout_width="200dp"
-                android:layout_height="100dp"
+                android:layout_height="150dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq3"
                 android:layout_toRightOf="@id/imageView3"
@@ -137,10 +153,12 @@
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/imageView3"
-                android:text="Exercise name : Bodyweight Squats\nMain Muscle Group : Upper Legs\nType : Strength\nEquipment : Body Only"
-                android:textSize="20dp"
+                android:text="Exercise Name : BODYWEIGHT SQUATS\nMain Muscle Group : Upper Legs\nType : Strength\nEquipment : Body Only"
+                android:textSize="17dp"
+                android:background="@color/purple_200"
+                android:textColor="@color/black"
                 android:textStyle="bold" />
 
             <View
@@ -148,7 +166,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="10dp"
                 android:layout_below="@id/textView3"
-                android:background="@color/underline"/>
+                android:background="@color/purple_700"/>
 
             <TextView
                 android:id="@+id/freq4"
@@ -157,13 +175,13 @@
                 android:layout_below="@id/u3"
                 android:text="@string/ex4"
                 android:textColor="@color/black"
-                android:textSize="20dp"
+                android:textSize="17dp"
                 android:textStyle="bold" />
 
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView4"
                 android:layout_width="200dp"
-                android:layout_height="100dp"
+                android:layout_height="150dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq4"
                 android:background="@color/white"
@@ -172,7 +190,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView44"
                 android:layout_width="200dp"
-                android:layout_height="100dp"
+                android:layout_height="150dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq4"
                 android:layout_toRightOf="@id/imageView4"
@@ -182,10 +200,12 @@
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/imageView4"
-                android:text="Exercise name : Push Ups\nMain Muscle Group : Chest\nType : Strength\nEquipment : Body Only"
-                android:textSize="20dp"
+                android:text="Exercise Name : PUSH UPS\nMain Muscle Group : Chest\nType : Strength\nEquipment : Body Only"
+                android:textSize="17dp"
+                android:background="@color/purple_200"
+                android:textColor="@color/black"
                 android:textStyle="bold" />
 
             <View
@@ -193,7 +213,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="10dp"
                 android:layout_below="@id/textView4"
-                android:background="@color/underline"/>
+                android:background="@color/purple_700"/>
 
             <TextView
                 android:id="@+id/freq5"
@@ -202,13 +222,13 @@
                 android:layout_below="@id/u4"
                 android:text="@string/ex5"
                 android:textColor="@color/black"
-                android:textSize="20dp"
+                android:textSize="17dp"
                 android:textStyle="bold" />
 
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView5"
                 android:layout_width="200dp"
-                android:layout_height="100dp"
+                android:layout_height="150dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq5"
                 android:background="@color/white"
@@ -217,7 +237,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView55"
                 android:layout_width="200dp"
-                android:layout_height="100dp"
+                android:layout_height="150dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq5"
                 android:layout_toRightOf="@id/imageView5"
@@ -227,10 +247,12 @@
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/imageView5"
-                android:text="Exercise name : Dips\nMain Muscle Group : Triceps\nType : Strength\nEquipment : Machine Strength"
-                android:textSize="20dp"
+                android:text="Exercise Name : DIPS\nMain Muscle Group : Triceps\nType : Strength\nEquipment : Machine Strength"
+                android:textSize="17dp"
+                android:background="@color/purple_200"
+                android:textColor="@color/black"
                 android:textStyle="bold" />
 
             <View
@@ -238,7 +260,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="10dp"
                 android:layout_below="@id/textView5"
-                android:background="@color/underline"/>
+                android:background="@color/purple_700"/>
 
             <TextView
                 android:id="@+id/freq6"
@@ -247,13 +269,13 @@
                 android:layout_below="@id/u5"
                 android:text="@string/ex6"
                 android:textColor="@color/black"
-                android:textSize="20dp"
+                android:textSize="17dp"
                 android:textStyle="bold" />
 
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView6"
                 android:layout_width="200dp"
-                android:layout_height="100dp"
+                android:layout_height="150dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq6"
                 android:background="@color/white"
@@ -262,7 +284,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView66"
                 android:layout_width="200dp"
-                android:layout_height="100dp"
+                android:layout_height="150dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq6"
                 android:layout_toRightOf="@id/imageView6"
@@ -272,10 +294,12 @@
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/imageView6"
-                android:text="Exercise name : Bicep Curls\nMain Muscle Group : Biceps\nType : Strength\nEquipment : Dumbbell"
-                android:textSize="20dp"
+                android:text="Exercise Name : BICEP CURLS\nMain Muscle Group : Biceps\nType : Strength\nEquipment : Dumbbell"
+                android:textSize="17dp"
+                android:background="@color/purple_200"
+                android:textColor="@color/black"
                 android:textStyle="bold" />
 
             <View
@@ -283,7 +307,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="10dp"
                 android:layout_below="@id/textView6"
-                android:background="@color/underline"/>
+                android:background="@color/purple_700"/>
 
             <TextView
                 android:id="@+id/freq7"
@@ -292,13 +316,13 @@
                 android:layout_below="@id/u6"
                 android:text="@string/ex7"
                 android:textColor="@color/black"
-                android:textSize="20dp"
+                android:textSize="17dp"
                 android:textStyle="bold" />
 
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView7"
                 android:layout_width="200dp"
-                android:layout_height="100dp"
+                android:layout_height="150dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq7"
                 android:background="@color/white"
@@ -307,7 +331,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView77"
                 android:layout_width="200dp"
-                android:layout_height="100dp"
+                android:layout_height="150dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq7"
                 android:layout_toRightOf="@id/imageView7"
@@ -317,10 +341,12 @@
             <TextView
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/imageView7"
-                android:text="Exercise name : Crunches\nMain Muscle Group : Abs\nType : Strength\nEquipment : Body Only"
-                android:textSize="20dp"
+                android:text="Exercise Name : CRUNCHES\nMain Muscle Group : Abs\nType : Strength\nEquipment : Body Only"
+                android:textSize="17dp"
+                android:background="@color/purple_200"
+                android:textColor="@color/black"
                 android:textStyle="bold" />
 
             <View
@@ -328,7 +354,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="10dp"
                 android:layout_below="@id/textView7"
-                android:background="@color/underline"/>
+                android:background="@color/purple_700"/>
 
             <TextView
                 android:id="@+id/freq8"
@@ -337,13 +363,13 @@
                 android:layout_below="@id/u7"
                 android:text="@string/ex8"
                 android:textColor="@color/black"
-                android:textSize="20dp"
+                android:textSize="17dp"
                 android:textStyle="bold" />
 
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView8"
                 android:layout_width="200dp"
-                android:layout_height="100dp"
+                android:layout_height="150dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq8"
                 android:background="@color/white"
@@ -352,7 +378,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView88"
                 android:layout_width="200dp"
-                android:layout_height="100dp"
+                android:layout_height="150dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq8"
                 android:layout_toRightOf="@id/imageView8"
@@ -362,10 +388,12 @@
             <TextView
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/imageView8"
-                android:text="Exercise name : Scissor Kick\nMain Muscle Group : Abs\nType : Strength\nEquipment : Body Only"
-                android:textSize="20dp"
+                android:text="Exercise Name : SCISSOR KICK\nMain Muscle Group : Abs\nType : Strength\nEquipment : Body Only"
+                android:textSize="17dp"
+                android:background="@color/purple_200"
+                android:textColor="@color/black"
                 android:textStyle="bold" />
 
             <View
@@ -373,7 +401,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="10dp"
                 android:layout_below="@id/textView8"
-                android:background="@color/underline"/>
+                android:background="@color/purple_700"/>
 
             <TextView
                 android:id="@+id/freq9"
@@ -382,13 +410,13 @@
                 android:layout_below="@id/u8"
                 android:text="@string/ex9"
                 android:textColor="@color/black"
-                android:textSize="20dp"
+                android:textSize="17dp"
                 android:textStyle="bold" />
 
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView9"
                 android:layout_width="200dp"
-                android:layout_height="100dp"
+                android:layout_height="150dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq9"
                 android:background="@color/white"
@@ -397,7 +425,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView99"
                 android:layout_width="200dp"
-                android:layout_height="100dp"
+                android:layout_height="150dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq9"
                 android:layout_toRightOf="@id/imageView9"
@@ -407,10 +435,12 @@
             <TextView
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/imageView9"
-                android:text="Exercise name : Fire Hydrants\nMain Muscle Group : Abs and Gluteus\nType : Strength\nEquipment : Body Only"
-                android:textSize="20dp"
+                android:text="Exercise Name : FIRE HYDRANTS\nMain Muscle Group : Abs and Gluteus\nType : Strength\nEquipment : Body Only"
+                android:textSize="17dp"
+                android:background="@color/purple_200"
+                android:textColor="@color/black"
                 android:textStyle="bold" />
 
             <View
@@ -418,7 +448,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="10dp"
                 android:layout_below="@id/textView9"
-                android:background="@color/underline"/>
+                android:background="@color/purple_700"/>
 
             <TextView
                 android:id="@+id/freq10"
@@ -427,13 +457,13 @@
                 android:layout_below="@id/u9"
                 android:text="@string/ex10"
                 android:textColor="@color/black"
-                android:textSize="20dp"
+                android:textSize="17dp"
                 android:textStyle="bold" />
 
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView10"
                 android:layout_width="200dp"
-                android:layout_height="100dp"
+                android:layout_height="150dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq10"
                 android:background="@color/white"
@@ -442,7 +472,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView1010"
                 android:layout_width="200dp"
-                android:layout_height="100dp"
+                android:layout_height="150dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq10"
                 android:layout_toRightOf="@id/imageView10"
@@ -452,10 +482,12 @@
             <TextView
                 android:id="@+id/textView10"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/imageView10"
-                android:text="Exercise name : Assisted Hyperextension\nMain Muscle Group : Back\nType : Strength\nEquipment : Body Only"
-                android:textSize="20dp"
+                android:text="Exercise Name : ASSISTED HYPEREXTENSION\nMain Muscle Group : Back\nType : Strength\nEquipment : Body Only"
+                android:textSize="17dp"
+                android:background="@color/purple_200"
+                android:textColor="@color/black"
                 android:textStyle="bold" />
 
         </RelativeLayout>

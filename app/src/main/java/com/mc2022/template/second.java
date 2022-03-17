@@ -3,20 +3,17 @@ package com.mc2022.template;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link have_time#newInstance} factory method to
+ * Use the {@link second#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class have_time extends Fragment {
+public class second extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -27,7 +24,7 @@ public class have_time extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public have_time() {
+    public second() {
         // Required empty public constructor
     }
 
@@ -37,11 +34,11 @@ public class have_time extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment have_time.
+     * @return A new instance of fragment second.
      */
     // TODO: Rename and change types and number of parameters
-    public static have_time newInstance(String param1, String param2) {
-        have_time fragment = new have_time();
+    public static second newInstance(String param1, String param2) {
+        second fragment = new second();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -58,29 +55,10 @@ public class have_time extends Fragment {
         }
     }
 
-    first f=new first();
-    Button b1,b2,b3;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view=inflater.inflate(R.layout.fragment_have_time, container, false);
-        b1=view.findViewById(R.id.button);
-        b1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
-                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                fragmentTransaction.replace(R.id.frameLayout,f);
-                fragmentTransaction.addToBackStack(null);
-                fragmentTransaction.commit();
-                //Intent intent=new Intent(MainActivity.this,Service_1.class);
-                //intent.putStringArrayListExtra("newlist",list);
-                //startService(intent);
-            }
-        });
-
-
-        return view;
+        return inflater.inflate(R.layout.fragment_second, container, false);
     }
 }

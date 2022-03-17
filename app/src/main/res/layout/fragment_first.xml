@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".first">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/tt1"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imageView1"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/text"
+            android:layout_gravity="left"
+            android:background="@color/white"
+            android:src="@drawable/walk" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imageView11"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/text"
+            android:layout_gravity="left"
+            android:layout_toRightOf="@id/imageView1"
+            android:background="@color/white"
+            android:src="@drawable/run" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView1"
+            android:background="@color/purple_200"
+            android:text="Exercise Name : WALKING/RUNNING\nMain Muscle Group : Cardio\nType : Cardio\nEquipment : Others"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/u1"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_below="@id/textView1"
+            android:background="@color/purple_700"/>
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@id/u1"
+            android:layout_gravity="left"
+            android:background="@color/white"
+            android:src="@drawable/aerobics" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView2"
+            android:background="@color/purple_200"
+            android:text="Exercise Name : AEROBICS\nMain Muscle Group : Cardio\nType : Cardio\nEquipment : Others"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/u2"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_below="@id/textView2"
+            android:background="@color/purple_700"/>
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@id/u2"
+            android:layout_gravity="left"
+            android:background="@color/white"
+            android:src="@drawable/cycling" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView3"
+            android:background="@color/purple_200"
+            android:text="Exercise Name : CYCLING\nMain Muscle Group : Cardio\nType : cardio\nEquipment : Machine - Cardio"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/u3"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_below="@id/textView3"
+            android:background="@color/purple_700"/>
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imageView4"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/u3"
+            android:layout_gravity="left"
+            android:background="@color/white"
+            android:src="@drawable/rope1" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imageView44"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_gravity="left"
+            android:layout_below="@id/u3"
+            android:layout_toRightOf="@id/imageView4"
+            android:background="@color/white"
+            android:src="@drawable/rope2" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView4"
+            android:background="@color/purple_200"
+            android:text="Exercise Name : JUMP ROPE\nMain Muscle Group : Cardio\nType : Cardio\nEquipment : Others"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/u4"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_below="@id/textView4"
+            android:background="@color/purple_700"/>
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@id/u4"
+            android:layout_gravity="left"
+            android:background="@color/white"
+            android:src="@drawable/field" />
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView5"
+            android:background="@color/purple_200"
+            android:text="Exercise Name : FIELD SPORTS\nMain Muscle Group : Cardio\nType : Cardio\nEquipment : others"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/u5"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_below="@id/textView5"
+            android:background="@color/purple_700"/>
+
+
+
+
+    </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

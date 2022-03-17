@@ -1,5 +1,6 @@
 package com.mc2022.template;
 
+import android.graphics.Color;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -56,42 +57,46 @@ public class day1 extends Fragment {
         }
     }
 
-    TextView t1,t2,t3,t4,t5,t6,t7,t8,t9,t10;
+    TextView t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,td;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view=inflater.inflate(R.layout.fragment_day1, container, false);
 
+        td=view.findViewById(R.id.textd);
+        td.setTextColor(Color.RED);
+        td.setText(MainActivity.text);
+
         t1=view.findViewById(R.id.freq1);
-        t1.setText("Frequency: "+String.valueOf(MainActivity.ex1+MainActivity.count)+" (You can also do in 2 - 4 equal sets)");
+        t1.setText("Frequency: "+String.valueOf(MainActivity.ex1+MainActivity.count)+"\n(You can also do in 2 - 4 equal sets)");
 
         t2=view.findViewById(R.id.freq2);
-        t2.setText("Time in seconds: "+String.valueOf(MainActivity.ex2+MainActivity.count)+" (You can also do in 2 - 4 equal sets)");
+        t2.setText("Time in seconds: "+String.valueOf(MainActivity.ex2+MainActivity.count)+"\n(You can also do in 2 - 4 equal sets)");
 
         t3=view.findViewById(R.id.freq3);
-        t3.setText("Frequency: "+String.valueOf(MainActivity.ex3+MainActivity.count)+" (You can also do in 2 - 4 equal sets)");
+        t3.setText("Frequency: "+String.valueOf(MainActivity.ex3+MainActivity.count)+"\n(You can also do in 2 - 4 equal sets)");
 
         t4=view.findViewById(R.id.freq4);
-        t4.setText("Frequency: "+String.valueOf(MainActivity.ex4+MainActivity.count)+" (You can also do in 2 - 4 equal sets)");
+        t4.setText("Frequency: "+String.valueOf(MainActivity.ex4+MainActivity.count)+"\n(You can also do in 2 - 4 equal sets)");
 
         t5=view.findViewById(R.id.freq5);
-        t5.setText("Frequency: "+String.valueOf(MainActivity.ex5+MainActivity.count)+" (You can also do in 2 - 4 equal sets)");
+        t5.setText("Frequency: "+String.valueOf(MainActivity.ex5+MainActivity.count)+"\n(You can also do in 2 - 4 equal sets)");
 
         t6=view.findViewById(R.id.freq6);
-        t6.setText("Frequency: "+String.valueOf(MainActivity.ex6+MainActivity.count)+" (You can also do in 2 - 4 equal sets)");
+        t6.setText("Frequency: "+String.valueOf(MainActivity.ex6+MainActivity.count)+"\n(You can also do in 2 - 4 equal sets)");
 
         t7=view.findViewById(R.id.freq7);
-        t7.setText("Frequency: "+String.valueOf(MainActivity.ex7+MainActivity.count)+" (You can also do in 2 - 4 equal sets)");
+        t7.setText("Frequency: "+String.valueOf(MainActivity.ex7+MainActivity.count)+"\n(You can also do in 2 - 4 equal sets)");
 
         t8=view.findViewById(R.id.freq8);
-        t8.setText("Frequency: "+String.valueOf(MainActivity.ex8+MainActivity.count)+" (You can also do in 2 - 4 equal sets)");
+        t8.setText("Frequency: "+String.valueOf(MainActivity.ex8+MainActivity.count)+"\n(You can also do in 2 - 4 equal sets)");
 
         t9=view.findViewById(R.id.freq9);
-        t9.setText("Frequency: "+String.valueOf(MainActivity.ex9+MainActivity.count)+" (You can also do in 2 - 4 equal sets)");
+        t9.setText("Frequency: "+String.valueOf(MainActivity.ex9+MainActivity.count)+"\n(You can also do in 2 - 4 equal sets)");
 
         t10=view.findViewById(R.id.freq10);
-        t10.setText("Frequency: "+String.valueOf(MainActivity.ex10+MainActivity.count)+" (You can also do in 2 - 4 equal sets)");
+        t10.setText("Frequency: "+String.valueOf(MainActivity.ex10+MainActivity.count)+"\n(You can also do in 2 - 4 equal sets)");
 
         return view;
     }

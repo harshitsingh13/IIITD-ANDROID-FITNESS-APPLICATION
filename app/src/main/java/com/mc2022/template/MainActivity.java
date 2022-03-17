@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     public static int ex8=10;
     public static int ex9=10;
     public static int ex10=10;
+    public static String text="";
     project1 p1=new project1();
     Button b1;
     @Override
