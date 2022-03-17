@@ -6,9 +6,463 @@
     tools:context=".less_time">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="less time fragment" />
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textthird"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/tt3"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/freq1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textthird"
+                android:background="@color/underline"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Chair Squats"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/freq1"
+                android:layout_gravity="left"
+                android:background="@color/teal_200"
+                android:src="@drawable/c1" />
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView1"
+                android:background="@color/underline"
+                android:text="Good for: Lower Body
+
+\nDescription: Lower yourself until you gently touch the chair and then stand back up, remembering to breathe. Repeat. For extra points, hover just over the chair for 30 seconds.
+\nTime: 1 minute
+\nCalorie Burned: 20 calories"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="italic" />
+
+            <View
+                android:id="@+id/u1"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/textView1"
+                android:background="@color/teal_200" />
+
+            <TextView
+                android:id="@+id/freq2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/u1"
+                android:background="@color/underline"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Knee Lifts"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/freq2"
+                android:layout_gravity="left"
+                android:background="@color/teal_200"
+                android:src="@drawable/c2" />
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView2"
+                android:background="@color/underline"
+                android:text="Good for: Legs, abdomen and upper thighs
+\nDescription: Standing on the spot, lift your leg up in front of you, bringing both arms down on either side at the same time. Repeat this action on the other leg and swap between them multiple times.
+\nTiming: 5 minutes
+\nCalories Burned: 30 calories"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="italic" />
+
+            <View
+                android:id="@+id/u2"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/textView2"
+                android:background="@color/teal_200" />
+
+            <TextView
+                android:id="@+id/freq3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/u2"
+                android:background="@color/underline"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Back Extensions"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/freq3"
+                android:layout_gravity="left"
+                android:background="@color/teal_200"
+                android:src="@drawable/c3" />
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView3"
+                android:background="@color/underline"
+                android:text="Good for: Back and glutes
+\nDescription: Position yourself behind your chair at your desk and hold onto the back for support. Raise your right arm towards the ceiling and lift your left leg behind you for 30 seconds to stretch out your back. Repeat the action with the opposite arm and leg.
+\nTiming: 1 min
+\nCalories Burned: 20 calories
+"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="italic" />
+
+            <View
+                android:id="@+id/u3"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/textView3"
+                android:background="@color/teal_200"/>
+
+            <TextView
+                android:id="@+id/freq4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/u3"
+                android:text="Seated Arm Circles"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="@color/underline"
+                android:textStyle="bold" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/freq4"
+                android:layout_gravity="left"
+                android:background="@color/teal_200"
+                android:src="@drawable/c4" />
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView4"
+                android:background="@color/underline"
+                android:text="Good for: Arms\nDescription: While sitting down, stretch your arms out at your sides and press your shoulder blades together. With your palms facing down, circle your arms forwards around 20 times. Then, face your palms upwards and circle your arms backwards around 20 times. After this, circle your wrists 20 times in each direction.
+\nTiming: 2 minutes
+\nCalories Burned: 15 calories"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="italic" />
+
+            <View
+                android:id="@+id/u4"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/textView4"
+                android:background="@color/teal_200" />
+
+            <TextView
+                android:id="@+id/freq5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/u4"
+                android:text="Lunge and Walk"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="@color/underline"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/freq5"
+                android:layout_gravity="left"
+                android:background="@color/teal_200"
+                android:src="@drawable/c5" />
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView5"
+                android:background="@color/underline"
+                android:text="Good for: Legs, thighs and quadriceps
+\nDescription: Find an empty space, such as a meeting room or corridor and try lunging as you walk. You can use tables and chairs for support if needed.
+\nTiming: 15 Minutes
+\nCalories Burned:137 calories"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="italic" />
+
+            <View
+                android:id="@+id/u5"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/textView5"
+                android:background="@color/teal_200"/>
+
+            <TextView
+                android:id="@+id/freq6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/u5"
+                android:text="Desk Dips"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="@color/underline"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="left"
+                android:layout_below="@id/freq6"
+                android:background="@color/teal_200"
+                android:src="@drawable/c6" />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView6"
+                android:text="Good for: Triceps
+\nDeception: Position yourself on the very edge of your desk with your palms placed on either side of you and your feet flat on the floor. Bend at the elbow and lower yourself towards the floor until your elbows are bent at 90 degrees, aim to hold the pose for 30 seconds.
+\nTiming: 5 mins
+\nCalories Burned: 20 calories
+"
+                android:textSize="17dp"
+                android:background="@color/underline"
+                android:textColor="@color/black"
+                android:textStyle="italic" />
+
+            <View
+                android:id="@+id/u6"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/textView6"
+                android:background="@color/teal_200"/>
+
+            <TextView
+                android:id="@+id/freq7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/u6"
+                android:text="Calf Raises"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="@color/underline"
+                android:textStyle="bold" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="left"
+                android:layout_below="@id/freq7"
+                android:background="@color/teal_200"
+                android:src="@drawable/c7" />
+
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView7"
+                android:text="Good for: Shoulders, calves and legs
+\nDescription: Using a sturdy object for support, stand on your tip toes and hold the pose for 15 seconds to strengthen the backs of your legs.
+\nTiming: 10 Minutes
+\nCalories Burned: 34 calories"
+                android:textSize="17dp"
+                android:background="@color/underline"
+                android:textColor="@color/black"
+                android:textStyle="italic" />
+
+            <View
+                android:id="@+id/u7"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/textView7"
+                android:background="@color/teal_200"/>
+
+            <TextView
+                android:id="@+id/freq8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/u7"
+                android:text="Seated Torso Crunch"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="@color/underline"
+                android:textStyle="bold" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/freq8"
+                android:layout_gravity="left"
+                android:background="@color/teal_200"
+                android:src="@drawable/c8" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView8"
+                android:background="@color/underline"
+                android:text="Good for: Torso
+\nDescription: Sitting on the very edge of a non-moving seat, hold on to the sides of the chair and pull your knees together while raising your legs towards the ceiling. Repeat this action multiple times.
+\nTiming: 1 minute
+\nCalories Burned: 30 calories"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="italic" />
+
+            <View
+                android:id="@+id/u8"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/textView8"
+                android:background="@color/teal_200"/>
+
+            <TextView
+                android:id="@+id/freq9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/u8"
+                android:text="Leg Raises"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="@color/underline"
+                android:textStyle="bold" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="left"
+                android:layout_below="@id/freq9"
+                android:background="@color/teal_200"
+                android:src="@drawable/c9" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView9"
+                android:text="Good for: Thighs and quads
+\nDescription: Under your desk, simply raise both legs at once upwards, and slowly lower them down. Repeat this action over multiple times.
+\nTiming: 10 minutes
+\nCalories Burned: 70 calories
+"
+                android:textSize="17dp"
+                android:background="@color/underline"
+                android:textColor="@color/black"
+                android:textStyle="italic" />
+
+            <View
+                android:id="@+id/u9"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/textView9"
+                android:background="@color/teal_200"/>
+
+            <TextView
+                android:id="@+id/freq10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/u9"
+                android:text="Stand at Your Desk"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="@color/underline"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="left"
+                android:layout_below="@id/freq10"
+                android:background="@color/teal_200"
+                android:src="@drawable/c10" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView10"
+                android:text="Good for: Lower blood sugar levels, reduce back pain.
+\nDescription: Simply standing at your desk while you work is a low intensity way to boost your health and improve your posture. You don’t need to surrender your seat altogether, try standing for half the day. Make sure your desk can be properly converted into a standing workspace to avoid any aches and pains.
+\nTiming: 3.5 hours
+\nCalories Burned: 170 calories
+"
+                android:textSize="17dp"
+                android:background="@color/underline"
+                android:textColor="@color/black"
+                android:textStyle="italic" />
+
+        </RelativeLayout>
+    </ScrollView>
 
 </FrameLayout>

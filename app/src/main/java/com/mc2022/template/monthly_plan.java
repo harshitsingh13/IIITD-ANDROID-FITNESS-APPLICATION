@@ -1,5 +1,6 @@
 package com.mc2022.template;
 
+import android.graphics.Color;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -62,12 +63,29 @@ public class monthly_plan extends Fragment {
     }
 
 
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view=inflater.inflate(R.layout.fragment_monthly_plan, container, false);
         t1=(TextView) view.findViewById(R.id.textd);
+
+        b4=(Button) view.findViewById(R.id.day4);
+        b8=(Button) view.findViewById(R.id.day8);
+        b12=(Button) view.findViewById(R.id.day12);
+        b16=(Button) view.findViewById(R.id.day16);
+        b20=(Button) view.findViewById(R.id.day20);
+        b24=(Button) view.findViewById(R.id.day24);
+        b28=(Button) view.findViewById(R.id.day28);
+
+        b4.setTextColor(Color.RED);
+        b8.setTextColor(Color.RED);
+        b12.setTextColor(Color.RED);
+        b16.setTextColor(Color.RED);
+        b20.setTextColor(Color.RED);
+        b24.setTextColor(Color.RED);
+        b28.setTextColor(Color.RED);
 
 
         b1=(Button) view.findViewById(R.id.day1);//defining button for 'start service' button functionality

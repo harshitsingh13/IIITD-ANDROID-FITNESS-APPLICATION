@@ -23,8 +23,9 @@
             android:gravity="center"
             android:text="@string/tt1"
             android:textColor="@color/black"
-            android:textSize="25dp"
-            android:textStyle="italic" />
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold" />
 
 
         <pl.droidsonroids.gif.GifImageView
