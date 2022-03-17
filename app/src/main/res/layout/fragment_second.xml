@@ -55,7 +55,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/imageView1"
             android:background="@color/underline"
-            android:text="Exercise Name : JUMPING JACK\nMain Muscle Group : Cardio\nType : Cardio\nEquipment : Body Only"
+            android:text="Targets: Glutes, abs, and hamstrings \nBenefits: If you're looking for a move to add to your strength routine that works your core and butt, the basic bridge is a great place to start. This exercise also helps strengthen the erector spinae, which runs the length of your back from your neck to your tailbone."
             android:textColor="@color/black"
             android:textSize="17dp"
             android:textStyle="italic" />
@@ -75,7 +75,7 @@
             android:background="@color/underline"
             android:gravity="center"
             android:padding="10dp"
-            android:text="Triangle Pose (Utthita Trikonasana)"
+            android:text="Extended Side Angle (Utthita Parvakonasana)"
             android:textColor="@color/black"
             android:textSize="17dp"
             android:textStyle="bold" />
@@ -97,7 +97,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/imageView2"
             android:background="@color/underline"
-            android:text="Exercise Name : PLANK\nMain Muscle Group : Abs\nType : Strength\nEquipment : Body Only"
+            android:text="Targets: Legs, hips, hamstrings, chest-opener\nBenefits: Stretches the legs, hips, and hamstrings. It also opens the chest and shoulders, which can be beneficial if you have any stiffness in your shoulders or back. Extended Side Angle is also a great side body stretch."
             android:textColor="@color/black"
             android:textSize="17dp"
             android:textStyle="italic" />
@@ -114,12 +114,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/u2"
-            android:text="Triangle Pose (Utthita Trikonasana)"
-            android:textColor="@color/black"
-            android:textSize="17dp"
+            android:background="@color/underline"
             android:gravity="center"
             android:padding="10dp"
-            android:background="@color/underline"
+            android:text="Child's Pose (Balasana)"
+            android:textColor="@color/black"
+            android:textSize="17dp"
             android:textStyle="bold" />
 
         <pl.droidsonroids.gif.GifImageView
@@ -129,7 +129,7 @@
             android:layout_below="@id/freq3"
             android:layout_gravity="left"
             android:background="@color/teal_200"
-            android:src="@drawable/yoga6" />
+            android:src="@drawable/yoga30" />
 
 
         <TextView
@@ -138,10 +138,11 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/imageView3"
             android:background="@color/underline"
-            android:text="Exercise Name : BODYWEIGHT SQUATS\nMain Muscle Group : Upper Legs\nType : Strength\nEquipment : Body Only"
+            android:text="Targets: Resting, gentle stretch\nBenefits: Child's Pose is a gentle stretch for the back, hips, thighs, and ankles. It can help relieve back pain. Learning to use this pose wisely is the part of your developing practice where you listen to your body's inner voice and do what it tells you.
+"
             android:textColor="@color/black"
-            android:textStyle="italic"
-            android:textSize="17dp" />
+            android:textSize="17dp"
+            android:textStyle="italic" />
 
     <View
         android:id="@+id/u3"
@@ -163,26 +164,26 @@
             android:background="@color/underline"
             android:textStyle="bold" />
 
-    <pl.droidsonroids.gif.GifImageView
-        android:id="@+id/imageView4"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_gravity="left"
-        android:layout_below="@id/freq4"
-        android:background="@color/teal_200"
-        android:src="@drawable/yoga7" />
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/freq4"
+            android:layout_gravity="left"
+            android:background="@color/teal_200"
+            android:src="@drawable/yoga7" />
 
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/imageView4"
-        android:text="Exercise Name : PUSH UPS\nMain Muscle Group : Chest\nType : Strength\nEquipment : Body Only"
-        android:textSize="17dp"
-        android:background="@color/underline"
-        android:textColor="@color/black"
-        android:textStyle="italic" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView4"
+            android:background="@color/underline"
+            android:text="Targets: Hamstrings, calves\nBenefits: Stretches and lengthens the hamstrings and calves.It is regarded as a relaxing and stress-relieving pose. It is regarded as a relaxing and stress-relieving pose. Traditionally, it is said to help relieve insomnia."
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="italic" />
 
         <View
             android:id="@+id/u4"
@@ -204,26 +205,26 @@
             android:textSize="17dp"
             android:textStyle="bold" />
 
-    <pl.droidsonroids.gif.GifImageView
-        android:id="@+id/imageView5"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_gravity="left"
-        android:layout_below="@id/freq5"
-        android:background="@color/teal_200"
-        android:src="@drawable/yoga8" />
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/freq5"
+            android:layout_gravity="left"
+            android:background="@color/teal_200"
+            android:src="@drawable/yoga8" />
 
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/imageView5"
-        android:text="Exercise Name : DIPS\nMain Muscle Group : Triceps\nType : Strength\nEquipment : Machine Strength"
-        android:textSize="17dp"
-        android:background="@color/underline"
-        android:textColor="@color/black"
-        android:textStyle="italic" />
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView5"
+            android:background="@color/underline"
+            android:text="Targets: Hamstrings, quadriceps, intercostal muscles\nBenefits: Strengthens the legs, opens the side body, improves spinal mobility, and improves balance and core strength. It is also an energizing pose, allowing better breathing and circulation."
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="italic" />
 
     <View
         android:id="@+id/u5"
@@ -260,7 +261,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/imageView6"
-        android:text="Exercise Name : BICEP CURLS\nMain Muscle Group : Biceps\nType : Strength\nEquipment : Dumbbell"
+        android:text="Targets: Hips, groin muscles, ankles, quads\nBenefits: Garland Pose opens the hips and groins as it stretches and strengthens the feet and ankles.Garland pose is an effective way to counter the tightness you get from spending too much time sitting in chairs."
         android:textSize="17dp"
         android:background="@color/underline"
         android:textColor="@color/black"
@@ -301,7 +302,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/imageView7"
-        android:text="Exercise Name : CRUNCHES\nMain Muscle Group : Abs\nType : Strength\nEquipment : Body Only"
+        android:text="Targets: Hamstrings, shoulders\nBenefits: This pose stretches and strengthens the legs, especially the hamstrings, and improves core strength. It is a great spinal stretch and also stretches your shoulders and builds your balance and coordination."
         android:textSize="17dp"
         android:background="@color/underline"
         android:textColor="@color/black"
@@ -327,14 +328,14 @@
         android:background="@color/underline"
         android:textStyle="bold" />
 
-    <pl.droidsonroids.gif.GifImageView
-        android:id="@+id/imageView8"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_gravity="left"
-        android:layout_below="@id/freq8"
-        android:background="@color/teal_200"
-        android:src="@drawable/yoga12" />
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/freq8"
+            android:layout_gravity="left"
+            android:background="@color/teal_200"
+            android:src="@drawable/yoga12" />
 
         <TextView
             android:id="@+id/textView8"
@@ -342,7 +343,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/imageView8"
             android:background="@color/underline"
-            android:text="Exercise Name : SCISSOR KICK\nMain Muscle Group : Abs\nType : Strength\nEquipment : Body Only"
+            android:text="Targets: Shoulders, full body stretch\nBenefits: This pose improves posture, strengthens the legs, and provides a full body stretch. If you've ever gotten out of bed in the morning and had a long languorous stretch, that's basically urdhva hastasana."
             android:textColor="@color/black"
             android:textSize="17dp"
             android:textStyle="italic" />
@@ -381,7 +382,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/imageView9"
-        android:text="Exercise Name : FIRE HYDRANTS\nMain Muscle Group : Abs and Gluteus\nType : Strength\nEquipment : Body Only"
+        android:text="Target: Hip flexors, including the psoas muscles\nBenefits: One of the hip flexors is the psoas muscle. You have one on each side of your body, each working to lift your thigh to your torso.Many people get tight hip flexors from sitting for long periods, as when at a desk, in a vehicle, or while watching television"
         android:textSize="17dp"
         android:background="@color/underline"
         android:textColor="@color/black"
@@ -421,7 +422,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/imageView10"
-        android:text="Exercise Name : ASSISTED HYPEREXTENSION\nMain Muscle Group : Back\nType : Strength\nEquipment : Body Only"
+        android:text="Targets: Arms, shoulders, legs, back\nBenefits: This pose strengthens the arms and core, improves hip flexibility, and increases awareness of hip position. In Downward Facing Dog, both hip points are aimed in the same direction (roughly speaking, the floor)."
         android:textSize="17dp"
         android:background="@color/underline"
         android:textColor="@color/black"

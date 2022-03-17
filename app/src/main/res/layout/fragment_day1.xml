@@ -29,11 +29,12 @@
 
             <TextView
                 android:id="@+id/freq1"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_below="@+id/textd"
                 android:text="@string/ex1"
                 android:textColor="@color/black"
-                android:layout_below="@+id/textd"
+                android:background="@color/underline"
                 android:textSize="17dp"
                 android:textStyle="bold" />
 
@@ -76,12 +77,13 @@
 
             <TextView
                 android:id="@+id/freq2"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/u1"
+                android:padding="10dp"
                 android:text="@string/ex2"
                 android:textColor="@color/black"
-                android:padding="10dp"
+                android:background="@color/underline"
                 android:textSize="17dp"
                 android:textStyle="bold" />
 
@@ -131,6 +133,7 @@
                 android:text="@string/ex3"
                 android:textColor="@color/black"
                 android:textSize="17dp"
+                android:background="@color/underline"
                 android:textStyle="bold" />
 
             <pl.droidsonroids.gif.GifImageView
@@ -176,6 +179,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/u3"
                 android:text="@string/ex4"
+                android:background="@color/underline"
                 android:textColor="@color/black"
                 android:textSize="17dp"
                 android:textStyle="bold" />
@@ -224,6 +228,7 @@
                 android:layout_below="@id/u4"
                 android:text="@string/ex5"
                 android:textColor="@color/black"
+                android:background="@color/underline"
                 android:textSize="17dp"
                 android:textStyle="bold" />
 
@@ -271,6 +276,7 @@
                 android:layout_below="@id/u5"
                 android:text="@string/ex6"
                 android:textColor="@color/black"
+                android:background="@color/underline"
                 android:textSize="17dp"
                 android:textStyle="bold" />
 
@@ -318,6 +324,7 @@
                 android:layout_below="@id/u6"
                 android:text="@string/ex7"
                 android:textColor="@color/black"
+                android:background="@color/underline"
                 android:textSize="17dp"
                 android:textStyle="bold" />
 
@@ -363,6 +370,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/u7"
+                android:background="@color/underline"
                 android:text="@string/ex8"
                 android:textColor="@color/black"
                 android:textSize="17dp"
@@ -411,6 +419,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/u8"
                 android:text="@string/ex9"
+                android:background="@color/underline"
                 android:textColor="@color/black"
                 android:textSize="17dp"
                 android:textStyle="bold" />
@@ -459,6 +468,7 @@
                 android:layout_below="@id/u9"
                 android:text="@string/ex10"
                 android:textColor="@color/black"
+                android:background="@color/underline"
                 android:textSize="17dp"
                 android:textStyle="bold" />
 
