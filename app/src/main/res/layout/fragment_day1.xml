@@ -24,7 +24,7 @@
                 android:gravity="center"
                 android:text="@string/daytext"
                 android:textColor="@color/black"
-                android:textSize="25dp"
+                android:textSize="24dp"
                 android:textStyle="bold" />
 
             <TextView
