@@ -41,7 +41,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView1"
                 android:layout_width="200dp"
-                android:layout_height="150dp"
+                android:layout_height="200dp"
                 android:layout_below="@id/freq1"
                 android:layout_gravity="left"
                 android:background="@color/white"
@@ -50,7 +50,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView11"
                 android:layout_width="200dp"
-                android:layout_height="150dp"
+                android:layout_height="200dp"
                 android:layout_gravity="left"
                 android:layout_toRightOf="@id/imageView1"
                 android:layout_below="@id/freq1"
@@ -91,7 +91,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView2"
                 android:layout_width="200dp"
-                android:layout_height="150dp"
+                android:layout_height="200dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq2"
                 android:background="@color/white"
@@ -100,7 +100,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView22"
                 android:layout_width="200dp"
-                android:layout_height="150dp"
+                android:layout_height="200dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq2"
                 android:layout_toRightOf="@id/imageView2"
@@ -139,7 +139,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView3"
                 android:layout_width="200dp"
-                android:layout_height="150dp"
+                android:layout_height="200dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq3"
                 android:background="@color/white"
@@ -148,7 +148,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView33"
                 android:layout_width="200dp"
-                android:layout_height="150dp"
+                android:layout_height="200dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq3"
                 android:layout_toRightOf="@id/imageView3"
@@ -187,7 +187,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView4"
                 android:layout_width="200dp"
-                android:layout_height="150dp"
+                android:layout_height="200dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq4"
                 android:background="@color/white"
@@ -196,7 +196,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView44"
                 android:layout_width="200dp"
-                android:layout_height="150dp"
+                android:layout_height="200dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq4"
                 android:layout_toRightOf="@id/imageView4"
@@ -235,7 +235,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView5"
                 android:layout_width="200dp"
-                android:layout_height="150dp"
+                android:layout_height="200dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq5"
                 android:background="@color/white"
@@ -244,7 +244,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView55"
                 android:layout_width="200dp"
-                android:layout_height="150dp"
+                android:layout_height="200dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq5"
                 android:layout_toRightOf="@id/imageView5"
@@ -283,7 +283,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView6"
                 android:layout_width="200dp"
-                android:layout_height="150dp"
+                android:layout_height="200dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq6"
                 android:background="@color/white"
@@ -292,7 +292,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView66"
                 android:layout_width="200dp"
-                android:layout_height="150dp"
+                android:layout_height="200dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq6"
                 android:layout_toRightOf="@id/imageView6"
@@ -331,7 +331,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView7"
                 android:layout_width="200dp"
-                android:layout_height="150dp"
+                android:layout_height="200dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq7"
                 android:background="@color/white"
@@ -340,7 +340,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView77"
                 android:layout_width="200dp"
-                android:layout_height="150dp"
+                android:layout_height="200dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq7"
                 android:layout_toRightOf="@id/imageView7"
@@ -379,7 +379,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView8"
                 android:layout_width="200dp"
-                android:layout_height="150dp"
+                android:layout_height="200dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq8"
                 android:background="@color/white"
@@ -388,7 +388,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView88"
                 android:layout_width="200dp"
-                android:layout_height="150dp"
+                android:layout_height="200dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq8"
                 android:layout_toRightOf="@id/imageView8"
@@ -427,7 +427,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView9"
                 android:layout_width="200dp"
-                android:layout_height="150dp"
+                android:layout_height="200dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq9"
                 android:background="@color/white"
@@ -436,7 +436,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView99"
                 android:layout_width="200dp"
-                android:layout_height="150dp"
+                android:layout_height="200dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq9"
                 android:layout_toRightOf="@id/imageView9"
@@ -475,7 +475,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView10"
                 android:layout_width="200dp"
-                android:layout_height="150dp"
+                android:layout_height="200dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq10"
                 android:background="@color/white"
@@ -484,7 +484,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView1010"
                 android:layout_width="200dp"
-                android:layout_height="150dp"
+                android:layout_height="200dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq10"
                 android:layout_toRightOf="@id/imageView10"
