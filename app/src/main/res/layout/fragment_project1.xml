@@ -3,7 +3,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/exback"
     tools:context=".project1">
+
+    <TextView
+        android:id="@+id/physcicalfitnessfunctionality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:inputType="textPersonName"
+        android:textSize="25dp"
+        android:textColor="@color/teal_200"
+        android:textStyle="bold"
+        android:text="Physical Fitness" />
 
     <Button
         android:id="@+id/have_time"
@@ -29,12 +42,14 @@
         android:translationX="50dp"
         android:translationY="350dp" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName"
+    <Button
+        android:id="@+id/elderly_exercise"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Physical Fitness" />
+        android:translationX="50dp"
+        android:translationY="450dp"
+        android:text="Elderly Exercises" />
+
+
 
 </RelativeLayout>

@@ -97,20 +97,6 @@ public class have_time extends Fragment {
             }
         });
 
-        b3=view.findViewById(R.id.button3);
-        b3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
-                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                fragmentTransaction.replace(R.id.frameLayout,t);
-                fragmentTransaction.addToBackStack(null);
-                fragmentTransaction.commit();
-                //Intent intent=new Intent(MainActivity.this,Service_1.class);
-                //intent.putStringArrayListExtra("newlist",list);
-                //startService(intent);
-            }
-        });
 
 
         return view;

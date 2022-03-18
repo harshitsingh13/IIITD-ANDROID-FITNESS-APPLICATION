@@ -61,7 +61,8 @@ public class project1 extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
     }
-    Button b1,b2,b3;
+    Button b1,b2,b3,b4;
+    third t=new third();
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -111,6 +112,23 @@ public class project1 extends Fragment {
                 //startService(intent);
             }
         });
+
+
+        b4=(Button) view.findViewById(R.id.elderly_exercise);//defining button for 'start service' button functionality
+        b4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout,t);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
 
         return view;
     }

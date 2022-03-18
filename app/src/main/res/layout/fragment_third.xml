@@ -6,9 +6,482 @@
     tools:context=".third">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textthird"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/tt3"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/freq1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textthird"
+                android:background="@color/underline"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Abdominal contractions"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/freq1"
+                android:layout_gravity="left"
+                android:background="@color/teal_200"
+                android:src="@drawable/ab1" />
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView1"
+                android:background="@color/underline"
+                android:text="Benefits: To increase strength in the abdominal muscles.
+\nSteps:
+\n1. Take a deep breath and tighten your abdominal muscles.
+\n2. Hold for 3 breaths and then release the contraction.
+\n3. Repeat 10 times.
+"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="italic" />
+
+            <View
+                android:id="@+id/u1"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/textView1"
+                android:background="@color/teal_200" />
+
+            <TextView
+                android:id="@+id/freq2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/u1"
+                android:background="@color/underline"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Wall pushups"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/freq2"
+                android:layout_gravity="left"
+                android:background="@color/teal_200"
+                android:src="@drawable/wall10" />
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView2"
+                android:background="@color/underline"
+                android:text="Benefits: To increase strength in the chest and shoulders.
+\nSteps:
+\n1. Stand about 3 feet away from a wall, facing the wall, with your feet shoulder-width apart.
+\n2. Lean forward and place your hands flat on the wall, in line with your shoulders. Your body should be in plank position, with your spine straight, not sagging or arched.
+\n3. Lower your body toward the wall and then push back.
+\n4. Repeat 10 times.
+"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="italic" />
+
+            <View
+                android:id="@+id/u2"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/textView2"
+                android:background="@color/teal_200" />
+
+            <TextView
+                android:id="@+id/freq3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/u2"
+                android:background="@color/underline"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Shoulder blade squeeze"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/freq3"
+                android:layout_gravity="left"
+                android:background="@color/teal_200"
+                android:src="@drawable/shblade6" />
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView3"
+                android:background="@color/underline"
+                android:text="Benefits: To strengthen postural muscles and stretch the chest.
+\nSteps:
+\n1. Sit up straight in your seat, rest your hands in your lap, and squeeze your shoulder blades toward one another.
+\n2. Focus on keeping your shoulders down, not hunched up toward your ears, and hold for 3 seconds.
+\n3. Release and repeat 8 to 12 times.
+
+"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="italic" />
+
+            <View
+                android:id="@+id/u3"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/textView3"
+                android:background="@color/teal_200"/>
+
+            <TextView
+                android:id="@+id/freq4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/u3"
+                android:text="Shoulder and upper back stretch"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="@color/underline"
+                android:textStyle="bold" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/freq4"
+                android:layout_gravity="left"
+                android:background="@color/teal_200"
+                android:src="@drawable/shupper7" />
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView4"
+                android:background="@color/underline"
+                android:text="Benefits: To stretch the shoulders and back.
+                \nSteps:
+\n1. Bend your right arm, raising it so your elbow is chest level and your right fist is near your left shoulder.
+\n2. Place your left hand on your right elbow and gently pull your right arm across your chest.
+\n3. Hold for 20 to 30 seconds.
+\n4. Repeat with the opposite arm.
+"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="italic" />
+
+            <View
+                android:id="@+id/u4"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/textView4"
+                android:background="@color/teal_200" />
+
+            <TextView
+                android:id="@+id/freq5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/u4"
+                android:text="Toe taps"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="@color/underline"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/freq5"
+                android:layout_gravity="left"
+                android:background="@color/teal_200"
+                android:src="@drawable/toe8" />
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView5"
+                android:background="@color/underline"
+                android:text="Benefits: To strengthen the lower legs.
+\nSteps:
+\n1. Sitting in a chair and keeping your heels on the floor, lift your toes high enough that you can feel the muscles along your shin working. (This helps keep blood circulating in your legs and also strengthens the lower leg.)
+\n2. Repeat 20 times.
+"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="italic" />
+
+            <View
+                android:id="@+id/u5"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/textView5"
+                android:background="@color/teal_200"/>
+
+            <TextView
+                android:id="@+id/freq6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/u5"
+                android:text="Heel raises"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="@color/underline"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="left"
+                android:layout_below="@id/freq6"
+                android:background="@color/teal_200"
+                android:src="@drawable/heel3" />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView6"
+                android:text="Benefits: To strengthen the upper calves.
+\nSteps:
+\n1. Sitting in a chair, keep your toes and the balls of your feet on the floor and lift your heels.
+\n2. Repeat 20 times.
+"
+                android:textSize="17dp"
+                android:background="@color/underline"
+                android:textColor="@color/black"
+                android:textStyle="italic" />
+
+            <View
+                android:id="@+id/u6"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/textView6"
+                android:background="@color/teal_200"/>
+
+            <TextView
+                android:id="@+id/freq7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/u6"
+                android:text="Knee lifts"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="@color/underline"
+                android:textStyle="bold" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="left"
+                android:layout_below="@id/freq7"
+                android:background="@color/teal_200"
+                android:src="@drawable/knee4" />
+
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView7"
+                android:text="Benefits: To strengthen the thighs.
+\nSteps:
+\n1. Seated in a chair, with your arms resting but not pressing on the armrests, contract your right quadriceps muscles and lift your leg. Your knee and the back of your thigh should be 2 or 3 inches off the seat.
+\n2. Pause for 3 seconds and slowly lower your leg.
+\n3. Complete 8 to 12 repetitions and then repeat with the opposite leg.
+"
+                android:textSize="17dp"
+                android:background="@color/underline"
+                android:textColor="@color/black"
+                android:textStyle="italic" />
+
+            <View
+                android:id="@+id/u7"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/textView7"
+                android:background="@color/teal_200"/>
+
+            <TextView
+                android:id="@+id/freq8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/u7"
+                android:text="Ankle rotations"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="@color/underline"
+                android:textStyle="bold" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/freq8"
+                android:layout_gravity="left"
+                android:background="@color/teal_200"
+                android:src="@drawable/ank2" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView8"
+                android:background="@color/underline"
+                android:text="Benefits: To strengthen the calves
+\nSteps:
+\n1. Seated in a chair, lift your right foot off the floor and slowly rotate your foot 5 times to the right and then 5 times to the left.
+\n2. Repeat with the left foot.
+"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="italic" />
+
+            <View
+                android:id="@+id/u8"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/textView8"
+                android:background="@color/teal_200"/>
+
+            <TextView
+                android:id="@+id/freq9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/u8"
+                android:text="Neck stretch"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="@color/underline"
+                android:textStyle="bold" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="left"
+                android:layout_below="@id/freq9"
+                android:background="@color/teal_200"
+                android:src="@drawable/neck5" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView9"
+                android:text="Benefits: To relieve tension in the neck and upper back.
+\nSteps:
+\n1.	Stand with your feet flat on the floor, shoulder-width apart. Keep your hands relaxed at your sides.
+\n2.	Don’t tip your head forward or backward as you turn your head slowly to the right. Stop when you feel a slight stretch. Hold for 10 to 30 seconds.
+\n3.	Now turn to the left. Hold for 10 to 30 seconds.
+\n4.	Repeat 3 to 5 times.
+"
+                android:textSize="17dp"
+                android:background="@color/underline"
+                android:textColor="@color/black"
+                android:textStyle="italic" />
+
+            <View
+                android:id="@+id/u9"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/textView9"
+                android:background="@color/teal_200"/>
+
+            <TextView
+                android:id="@+id/freq10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/u9"
+                android:text="Upper back"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="@color/underline"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="left"
+                android:layout_below="@id/freq10"
+                android:background="@color/teal_200"
+                android:src="@drawable/upper9" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView10"
+                android:background="@color/underline"
+                android:text="Benefits: To relieve tension in the shoulders and upper back
+\nSteps:
+\n1. Sit in a firm chair. Place your feet flat on the floor, shoulder-width apart.
+\n2. Hold your arms up and out in front at shoulder height, with your palms facing outward and the backs of your hands pressed together. Relax your shoulders so they’re not scrunched up near your ears.
+\n3. Reach your fingertips out until you feel a stretch. Your back will move away from the back of the chair.
+\n4. Stop and hold for 10 to 30 seconds.
+\n5. Repeat 3 to 5 times.
+"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="italic" />
+
+        </RelativeLayout>
+    </ScrollView>
 
 </FrameLayout>

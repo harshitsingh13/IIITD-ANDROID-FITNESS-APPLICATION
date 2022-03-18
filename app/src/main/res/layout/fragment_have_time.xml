@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/exback"
     tools:context=".have_time">
 
     <!-- TODO: Update blank fragment layout -->
@@ -15,21 +16,19 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
+        android:translationX="50dp"
+        android:translationY="100dp"
         android:text="30min - 45min" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:text="45min - 1hr" />
+        android:layout_marginTop="10dp"
+        android:translationX="50dp"
+        android:translationY="200dp"
+        android:text="45min - 60min" />
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
-        android:text="More than 1hr" />
+
 
 </RelativeLayout>
