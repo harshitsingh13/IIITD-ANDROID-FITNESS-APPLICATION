@@ -68,35 +68,38 @@ public class day1 extends Fragment {
         td.setTextColor(Color.RED);
         td.setText(MainActivity.text);
 
-        t1=view.findViewById(R.id.freq1);
-        t1.setText("Frequency: "+String.valueOf(MainActivity.ex1+MainActivity.count)+"\n(You can also do in 2 - 4 equal sets)");
+        t1=view.findViewById(R.id.textView1);
+        t1.setText("Main Muscle Group : Cardio\nType : Cardio\nEquipment : Body Only\nFrequency: "+String.valueOf(MainActivity.ex1+MainActivity.count)+" (You can also do in 2 - 4 equal sets)");
 
-        t2=view.findViewById(R.id.freq2);
-        t2.setText("Time in seconds: "+String.valueOf(MainActivity.ex2+MainActivity.count)+"\n(You can also do in 2 - 4 equal sets)");
+        //t1.setText("Frequency: "+String.valueOf(MainActivity.ex1+MainActivity.count)+"\n(You can also do in 2 - 4 equal sets)");
 
-        t3=view.findViewById(R.id.freq3);
-        t3.setText("Frequency: "+String.valueOf(MainActivity.ex3+MainActivity.count)+"\n(You can also do in 2 - 4 equal sets)");
+        t2=view.findViewById(R.id.textView2);
+        t2.setText("Main Muscle Group : Abs\nType : Strength\nEquipment : Body Only\nTime: "+String.valueOf(MainActivity.ex2+MainActivity.count)+"sec (You can also do in 2 - 4 equal sets)");
+        //t2.setText("Time in seconds: "+String.valueOf(MainActivity.ex2+MainActivity.count)+"\n(You can also do in 2 - 4 equal sets)");
 
-        t4=view.findViewById(R.id.freq4);
-        t4.setText("Frequency: "+String.valueOf(MainActivity.ex4+MainActivity.count)+"\n(You can also do in 2 - 4 equal sets)");
+        t3=view.findViewById(R.id.textView3);
+        t3.setText("Main Muscle Group : Cardio\nType : Cardio\nEquipment : Body Only\nFrequency: "+String.valueOf(MainActivity.ex3+MainActivity.count)+" (You can also do in 2 - 4 equal sets)");
 
-        t5=view.findViewById(R.id.freq5);
-        t5.setText("Frequency: "+String.valueOf(MainActivity.ex5+MainActivity.count)+"\n(You can also do in 2 - 4 equal sets)");
+        t4=view.findViewById(R.id.textView4);
+        t4.setText("Main Muscle Group : Cardio\nType : Cardio\nEquipment : Body Only\nFrequency: "+String.valueOf(MainActivity.ex4+MainActivity.count)+" (You can also do in 2 - 4 equal sets)");
 
-        t6=view.findViewById(R.id.freq6);
-        t6.setText("Frequency: "+String.valueOf(MainActivity.ex6+MainActivity.count)+"\n(You can also do in 2 - 4 equal sets)");
+        t5=view.findViewById(R.id.textView5);
+        t5.setText("Main Muscle Group : Cardio\nType : Cardio\nEquipment : Body Only\nFrequency: "+String.valueOf(MainActivity.ex5+MainActivity.count)+" (You can also do in 2 - 4 equal sets)");
 
-        t7=view.findViewById(R.id.freq7);
-        t7.setText("Frequency: "+String.valueOf(MainActivity.ex7+MainActivity.count)+"\n(You can also do in 2 - 4 equal sets)");
+        t6=view.findViewById(R.id.textView6);
+        t6.setText("Main Muscle Group : Cardio\nType : Cardio\nEquipment : Body Only\nFrequency: "+String.valueOf(MainActivity.ex6+MainActivity.count)+" (You can also do in 2 - 4 equal sets)");
 
-        t8=view.findViewById(R.id.freq8);
-        t8.setText("Frequency: "+String.valueOf(MainActivity.ex8+MainActivity.count)+"\n(You can also do in 2 - 4 equal sets)");
+        t7=view.findViewById(R.id.textView7);
+        t7.setText("Main Muscle Group : Cardio\nType : Cardio\nEquipment : Body Only\nFrequency: "+String.valueOf(MainActivity.ex7+MainActivity.count)+" (You can also do in 2 - 4 equal sets)");
 
-        t9=view.findViewById(R.id.freq9);
-        t9.setText("Frequency: "+String.valueOf(MainActivity.ex9+MainActivity.count)+"\n(You can also do in 2 - 4 equal sets)");
+        t8=view.findViewById(R.id.textView8);
+        t8.setText("Main Muscle Group : Cardio\nType : Cardio\nEquipment : Body Only\nFrequency: "+String.valueOf(MainActivity.ex8+MainActivity.count)+" (You can also do in 2 - 4 equal sets)");
 
-        t10=view.findViewById(R.id.freq10);
-        t10.setText("Frequency: "+String.valueOf(MainActivity.ex10+MainActivity.count)+"\n(You can also do in 2 - 4 equal sets)");
+        t9=view.findViewById(R.id.textView9);
+        t9.setText("Main Muscle Group : Cardio\nType : Cardio\nEquipment : Body Only\nFrequency: "+String.valueOf(MainActivity.ex9+MainActivity.count)+" (You can also do in 2 - 4 equal sets)");
+
+        t10=view.findViewById(R.id.textView10);
+        t10.setText("Main Muscle Group : Cardio\nType : Cardio\nEquipment : Body Only\nFrequency: "+String.valueOf(MainActivity.ex10+MainActivity.count)+" (You can also do in 2 - 4 equal sets)");
 
         return view;
     }

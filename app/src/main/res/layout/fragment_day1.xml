@@ -32,9 +32,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/textd"
-                android:text="@string/ex1"
-                android:textColor="@color/black"
                 android:background="@color/underline"
+                android:text="Exercise Name : JUMPING JACKS"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
                 android:textSize="17dp"
                 android:textStyle="bold" />
 
@@ -63,7 +65,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/imageView1"
                 android:background="@color/underline"
-                android:text="Exercise Name : JUMPING JACK\nMain Muscle Group : Cardio\nType : Cardio\nEquipment : Body Only"
+                android:text="@string/ex1"
                 android:textColor="@color/black"
                 android:textSize="17dp"
                 android:textStyle="italic" />
@@ -80,10 +82,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/u1"
-                android:padding="10dp"
-                android:text="@string/ex2"
-                android:textColor="@color/black"
                 android:background="@color/underline"
+                android:text="Exercise Name : PLANK"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:textAlignment="center"
                 android:textSize="17dp"
                 android:textStyle="bold" />
 
@@ -113,7 +116,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/imageView2"
                 android:background="@color/underline"
-                android:text="Exercise Name : PLANK\nMain Muscle Group : Abs\nType : Strength\nEquipment : Body Only"
+                android:text="@string/ex2"
                 android:textColor="@color/black"
                 android:textSize="17dp"
                 android:textStyle="italic" />
@@ -130,9 +133,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/u2"
-                android:text="@string/ex3"
+                android:text="Exercise Name : BODYWEIGHT SQUATS"
                 android:textColor="@color/black"
                 android:textSize="17dp"
+                android:padding="10dp"
+                android:textAlignment="center"
                 android:background="@color/underline"
                 android:textStyle="bold" />
 
@@ -161,7 +166,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/imageView3"
                 android:background="@color/underline"
-                android:text="Exercise Name : BODYWEIGHT SQUATS\nMain Muscle Group : Upper Legs\nType : Strength\nEquipment : Body Only"
+                android:text="@string/ex3"
                 android:textColor="@color/black"
                 android:textSize="17dp"
                 android:textStyle="italic" />
@@ -178,9 +183,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/u3"
-                android:text="@string/ex4"
+                android:text="Exercise Name : PUSH UPS"
                 android:background="@color/underline"
                 android:textColor="@color/black"
+                android:padding="10dp"
+                android:textAlignment="center"
                 android:textSize="17dp"
                 android:textStyle="bold" />
 
@@ -208,10 +215,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/imageView4"
-                android:text="Exercise Name : PUSH UPS\nMain Muscle Group : Chest\nType : Strength\nEquipment : Body Only"
-                android:textSize="17dp"
                 android:background="@color/underline"
+                android:text="@string/ex4"
                 android:textColor="@color/black"
+                android:textSize="17dp"
                 android:textStyle="italic" />
 
             <View
@@ -226,9 +233,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/u4"
-                android:text="@string/ex5"
+                android:text="Exercise Name : DIPS"
                 android:textColor="@color/black"
                 android:background="@color/underline"
+                android:padding="10dp"
+                android:textAlignment="center"
                 android:textSize="17dp"
                 android:textStyle="bold" />
 
@@ -256,10 +265,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/imageView5"
-                android:text="Exercise Name : DIPS\nMain Muscle Group : Triceps\nType : Strength\nEquipment : Machine Strength"
-                android:textSize="17dp"
                 android:background="@color/underline"
+                android:text="@string/ex5"
                 android:textColor="@color/black"
+                android:textSize="17dp"
                 android:textStyle="italic" />
 
             <View
@@ -274,9 +283,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/u5"
-                android:text="@string/ex6"
+                android:text="Exercise Name : BICEP CURLS"
                 android:textColor="@color/black"
                 android:background="@color/underline"
+                android:padding="10dp"
+                android:textAlignment="center"
                 android:textSize="17dp"
                 android:textStyle="bold" />
 
@@ -304,10 +315,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/imageView6"
-                android:text="Exercise Name : BICEP CURLS\nMain Muscle Group : Biceps\nType : Strength\nEquipment : Dumbbell"
-                android:textSize="17dp"
                 android:background="@color/underline"
+                android:text="@string/ex6"
                 android:textColor="@color/black"
+                android:textSize="17dp"
                 android:textStyle="italic" />
 
             <View
@@ -322,9 +333,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/u6"
-                android:text="@string/ex7"
+                android:text="Exercise Name : CRUNCHES"
                 android:textColor="@color/black"
                 android:background="@color/underline"
+                android:padding="10dp"
+                android:textAlignment="center"
                 android:textSize="17dp"
                 android:textStyle="bold" />
 
@@ -352,10 +365,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/imageView7"
-                android:text="Exercise Name : CRUNCHES\nMain Muscle Group : Abs\nType : Strength\nEquipment : Body Only"
-                android:textSize="17dp"
                 android:background="@color/underline"
+                android:text="@string/ex7"
                 android:textColor="@color/black"
+                android:textSize="17dp"
                 android:textStyle="italic" />
 
             <View
@@ -371,8 +384,10 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/u7"
                 android:background="@color/underline"
-                android:text="@string/ex8"
+                android:text="Exercise Name : SCISSOR KICK"
                 android:textColor="@color/black"
+                android:padding="10dp"
+                android:textAlignment="center"
                 android:textSize="17dp"
                 android:textStyle="bold" />
 
@@ -400,10 +415,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/imageView8"
-                android:text="Exercise Name : SCISSOR KICK\nMain Muscle Group : Abs\nType : Strength\nEquipment : Body Only"
-                android:textSize="17dp"
                 android:background="@color/underline"
+                android:text="@string/ex8"
                 android:textColor="@color/black"
+                android:textSize="17dp"
                 android:textStyle="italic" />
 
             <View
@@ -418,9 +433,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/u8"
-                android:text="@string/ex9"
+                android:text="Exercise Name : FIRE HYDRANTS"
                 android:background="@color/underline"
                 android:textColor="@color/black"
+                android:padding="10dp"
+                android:textAlignment="center"
                 android:textSize="17dp"
                 android:textStyle="bold" />
 
@@ -448,10 +465,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/imageView9"
-                android:text="Exercise Name : FIRE HYDRANTS\nMain Muscle Group : Abs and Gluteus\nType : Strength\nEquipment : Body Only"
-                android:textSize="17dp"
                 android:background="@color/underline"
+                android:text="@string/ex9"
                 android:textColor="@color/black"
+                android:textSize="17dp"
                 android:textStyle="italic" />
 
             <View
@@ -466,9 +483,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/u9"
-                android:text= "@string/ex10"
+                android:text= "Exercise Name : ASSISTED HYPEREXTENSION"
                 android:textColor="@color/black"
                 android:background="@color/underline"
+                android:padding="10dp"
+                android:textAlignment="center"
                 android:textSize="17dp"
                 android:textStyle="bold" />
 
@@ -496,10 +515,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/imageView10"
-                android:text="Exercise Name : ASSISTED HYPEREXTENSION\nMain Muscle Group : Back\nType : Strength\nEquipment : Body Only"
-                android:textSize="17dp"
                 android:background="@color/underline"
+                android:text="@string/ex10"
                 android:textColor="@color/black"
+                android:textSize="17dp"
                 android:textStyle="italic" />
 
         </RelativeLayout>
