@@ -466,7 +466,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/u9"
-                android:text="@string/ex10"
+                android:text= "@string/ex10"
                 android:textColor="@color/black"
                 android:background="@color/underline"
                 android:textSize="17dp"
