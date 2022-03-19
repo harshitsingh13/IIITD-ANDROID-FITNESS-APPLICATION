@@ -1,5 +1,8 @@
 package com.mc2022.template;
 
+import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -9,7 +12,10 @@ import androidx.fragment.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.Spinner;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -62,13 +68,50 @@ public class project1 extends Fragment {
         }
     }
     Button b1,b2,b3,b4;
+    first f=new first();
+    second s=new second();
     third t=new third();
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_project1, container, false);
-        b1=(Button) view.findViewById(R.id.have_time);//defining button for 'start service' button functionality
+
+        //drop down using spinner code//////////////////////////////////////////////////////////////
+        Spinner mySpinner = (Spinner) view.findViewById(R.id.spinner1);
+        //mySpinner.setTransitionName("own made");
+        ArrayAdapter<String> myAdapter = new ArrayAdapter<String>(getContext(),
+                R.layout.spinnertext, getResources().getStringArray(R.array.dropdown));
+        myAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        mySpinner.setAdapter(myAdapter);
+
+        mySpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+                                                @Override
+                                                public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                                                    if (i == 1) {
+                                                        FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                                                        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                                                        fragmentTransaction.add(R.id.frameLayout,f);
+                                                        fragmentTransaction.addToBackStack(null);
+                                                        fragmentTransaction.commit();
+                                                    } else if (i == 2) {
+                                                        FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                                                        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                                                        fragmentTransaction.add(R.id.frameLayout,s);
+                                                        fragmentTransaction.addToBackStack(null);
+                                                        fragmentTransaction.commit();
+                                                    }
+                                                }
+
+                                                @Override
+                                                public void onNothingSelected(AdapterView<?> adapterView) {
+
+                                                }
+                                            });
+
+            ////////////////////////////////////////////////////////////////////////////////////////////
+        /*b1=(Button) view.findViewById(R.id.have_time);//defining button for 'start service' button functionality
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -81,7 +124,7 @@ public class project1 extends Fragment {
                 //intent.putStringArrayListExtra("newlist",list);
                 //startService(intent);
             }
-        });
+        });*/
 
         b2=(Button) view.findViewById(R.id.less_time);//defining button for 'start service' button functionality
         b2.setOnClickListener(new View.OnClickListener() {
@@ -131,5 +174,5 @@ public class project1 extends Fragment {
 
 
         return view;
-    }
-}
+
+}}

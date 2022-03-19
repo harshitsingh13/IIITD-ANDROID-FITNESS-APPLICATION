@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.replace(R.id.frameLayout,p1);
+        fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();
 
         /*b1=(Button) findViewById(R.id.physical_fitness);//defining button for 'start service' button functionality

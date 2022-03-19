@@ -65,7 +65,7 @@ public class day1 extends Fragment {
         View view=inflater.inflate(R.layout.fragment_day1, container, false);
 
         td=view.findViewById(R.id.textd);
-        td.setTextColor(Color.RED);
+        //td.setTextColor(Color.BLUE);
         td.setText(MainActivity.text);
 
         t1=view.findViewById(R.id.textView1);

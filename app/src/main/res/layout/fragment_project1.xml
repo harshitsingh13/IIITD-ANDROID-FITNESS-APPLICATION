@@ -10,45 +10,74 @@
         android:id="@+id/physcicalfitnessfunctionality"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:textAlignment="center"
         android:inputType="textPersonName"
+        android:padding="10dp"
+        android:text="Physical Fitness"
+        android:textAlignment="center"
+        android:textColor="@color/bl"
+        android:background="@color/teal_200"
         android:textSize="25dp"
-        android:textColor="@color/teal_200"
-        android:textStyle="bold"
-        android:text="Physical Fitness" />
+        android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/have_time"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="have time"
+    <android.widget.Button
+        android:id="@+id/less_time"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:background="@drawable/buttonback"
+        android:text="less time"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
         android:translationX="50dp"
         android:translationY="150dp" />
 
-    <Button
-        android:id="@+id/less_time"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="less time"
+    <!--Button
+        android:id="@+id/have_time"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="have time"
+        android:translationX="230dp"
+        android:translationY="150dp" /-->
+
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:background="@drawable/buttonback"
+        android:text="HAVE TIME"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold"
         android:translationX="50dp"
         android:translationY="250dp" />
 
-    <Button
+
+    <android.widget.Button
         android:id="@+id/monthly_plan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:background="@drawable/buttonback"
         android:text="monthly plan"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
         android:translationX="50dp"
         android:translationY="350dp" />
 
-    <Button
+    <android.widget.Button
         android:id="@+id/elderly_exercise"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:background="@drawable/buttonback"
+        android:text="Elderly Exercises"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="24dp"
         android:translationX="50dp"
-        android:translationY="450dp"
-        android:text="Elderly Exercises" />
+        android:translationY="450dp" />
+
+
 
 
 

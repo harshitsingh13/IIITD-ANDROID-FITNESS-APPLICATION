@@ -7,6 +7,12 @@
     <string name="tv3"></string>
     <string name="tv4"></string>
     <string name="tv5"></string>
+    
+    <string-array name="dropdown">
+        <item>HAVE TIME</item>
+        <item>Option 1 : 30MIN - 45MIN</item>
+        <item>Option 2 : 45MIN - 60MIN</item>
+    </string-array>
 
     <string name="ex1">Frequency: </string>
     <string name="ex2">Time in seconds: </string>
@@ -19,9 +25,9 @@
     <string name="ex9">Frequency: </string>
     <string name="ex10">Frequency: </string>
     <string name="daytext">Frequency: </string>
-    <string name="tt1">Activities that you can do in 30 - 45 minutes</string>
-    <string name="tt2">Activities that you can do in 45 - 60 minutes</string>
-    <string name="tt3">Elderly Exercises</string>
+    <string name="tt1">MODERATE EXERCISES</string>
+    <string name="tt2">YOGA</string>
+    <string name="tt3">ELDERLY EXERCISES</string>
     <string name="tt4"></string>
     <string name="tt5"></string>
 

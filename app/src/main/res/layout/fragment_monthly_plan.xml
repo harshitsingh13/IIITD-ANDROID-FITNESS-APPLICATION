@@ -12,10 +12,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:textColor="@color/teal_200"
+        android:textColor="@color/bl"
         android:textSize="25dp"
         android:padding="10dp"
         android:textStyle="bold"
+        android:background="@color/teal_200"
         android:text="MONTHLY PLAN" />
 
     <androidx.appcompat.widget.AppCompatButton
