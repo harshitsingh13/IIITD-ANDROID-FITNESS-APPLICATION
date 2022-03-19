@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">fitness</string>
+    <string name="app_name"></string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="tv1"></string>
@@ -7,11 +7,11 @@
     <string name="tv3"></string>
     <string name="tv4"></string>
     <string name="tv5"></string>
-    
+
     <string-array name="dropdown">
-        <item>HAVE TIME</item>
-        <item>Option 1 : 30MIN - 45MIN</item>
-        <item>Option 2 : 45MIN - 60MIN</item>
+        <item>Exercise Duration :</item>
+        <item>30min - 45min</item>
+        <item>45min - 60min</item>
     </string-array>
 
     <string name="ex1">Frequency: </string>

@@ -92,14 +92,23 @@ public class project1 extends Fragment {
                                                     if (i == 1) {
                                                         FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                                                         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                                                        fragmentTransaction.add(R.id.frameLayout,f);
-                                                        fragmentTransaction.addToBackStack(null);
+                                                        if(!f.isAdded())
+                                                        {
+                                                            fragmentTransaction.add(R.id.frameLayout,f); //or return false/true, based on where you are calling from
+                                                        }
+                                                        //fragmentTransaction.replace(R.id.frameLayout,f);
+                                                        fragmentTransaction.addToBackStack(String.valueOf(f));
                                                         fragmentTransaction.commit();
                                                     } else if (i == 2) {
                                                         FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                                                         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                                                        fragmentTransaction.add(R.id.frameLayout,s);
-                                                        fragmentTransaction.addToBackStack(null);
+                                                        if(!s.isAdded())
+                                                        {
+                                                            fragmentTransaction.add(R.id.frameLayout,s); //or return false/true, based on where you are calling from
+                                                        }
+
+                                                        //fragmentTransaction.replace(R.id.frameLayout,s);
+                                                        fragmentTransaction.addToBackStack(String.valueOf(s));
                                                         fragmentTransaction.commit();
                                                     }
                                                 }
@@ -132,8 +141,9 @@ public class project1 extends Fragment {
             public void onClick(View view) {
                 FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                fragmentTransaction.replace(R.id.frameLayout,lessTime);
-                fragmentTransaction.addToBackStack(null);
+                if(!lessTime.isAdded())
+                    fragmentTransaction.add(R.id.frameLayout,lessTime);
+                fragmentTransaction.addToBackStack(String.valueOf(lessTime));
                 fragmentTransaction.commit();
                 //Intent intent=new Intent(MainActivity.this,Service_1.class);
                 //intent.putStringArrayListExtra("newlist",list);
@@ -147,8 +157,9 @@ public class project1 extends Fragment {
             public void onClick(View view) {
                 FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                fragmentTransaction.replace(R.id.frameLayout,monthlyPlan);
-                fragmentTransaction.addToBackStack(null);
+                if(!monthlyPlan.isAdded())
+                    fragmentTransaction.add(R.id.frameLayout,monthlyPlan);
+                fragmentTransaction.addToBackStack(String.valueOf(monthlyPlan));
                 fragmentTransaction.commit();
                 //Intent intent=new Intent(MainActivity.this,Service_1.class);
                 //intent.putStringArrayListExtra("newlist",list);
@@ -163,7 +174,8 @@ public class project1 extends Fragment {
             public void onClick(View view) {
                 FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                fragmentTransaction.replace(R.id.frameLayout,t);
+                if(!t.isAdded())
+                    fragmentTransaction.add(R.id.frameLayout,t);
                 fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
                 //Intent intent=new Intent(MainActivity.this,Service_1.class);

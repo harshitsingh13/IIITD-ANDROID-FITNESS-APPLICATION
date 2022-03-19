@@ -6,8 +6,10 @@ import androidx.fragment.app.FragmentTransaction;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,8 +24,9 @@ public class MainActivity extends AppCompatActivity {
     public static int ex8=10;
     public static int ex9=10;
     public static int ex10=10;
+    private static final String TAG = "msg";
     public static String text="";
-    project1 p1=new project1();
+    options option=new options();
     Button b1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,8 +35,9 @@ public class MainActivity extends AppCompatActivity {
 
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.replace(R.id.frameLayout,p1);
-        fragmentTransaction.addToBackStack(null);
+        if(!option.isAdded())
+            fragmentTransaction.add(R.id.frameLayout,option);
+        fragmentTransaction.addToBackStack(String.valueOf(option));
         fragmentTransaction.commit();
 
         /*b1=(Button) findViewById(R.id.physical_fitness);//defining button for 'start service' button functionality
@@ -50,4 +54,37 @@ public class MainActivity extends AppCompatActivity {
             }
         });*/
     }
+
+    android.widget.Toast Toast;
+    @Override
+    protected  void onResume(){// for onresume activity cycle
+        super.onResume();
+        Log.i(TAG,"Currently on onResume");
+        Toast.makeText(getApplicationContext(),"Currently on onResume", Toast.LENGTH_SHORT).show();
+    }
+    @Override
+    protected  void onStart(){// for onstart activity cycle
+        super.onStart();
+        Log.i(TAG,"Currently on onStart");
+        Toast.makeText(getApplicationContext(),"Currently on onResume", Toast.LENGTH_SHORT).show();
+    }
+    @Override
+    protected  void onStop(){// for onstop activity cycle
+        super.onStop();
+        Log.i(TAG,"Currently on onStop");
+        Toast.makeText(getApplicationContext(),"Currently on onResume", Toast.LENGTH_SHORT).show();
+    }
+    @Override
+    protected  void onDestroy(){// for ondestroy activity cycle
+        super.onDestroy();
+        Log.i(TAG,"Currently on onDestroy");
+        Toast.makeText(getApplicationContext(),"Currently on onResume", Toast.LENGTH_SHORT).show();
+    }
+    @Override
+    protected  void onPause(){// for onpause activity cycle
+        super.onPause();
+        Log.i(TAG,"Currently on onPause");
+        Toast.makeText(getApplicationContext(),"Currently on onResume", Toast.LENGTH_SHORT).show();
+    }
+
 }

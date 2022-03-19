@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".options">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/hello_blank_fragment" />
+
+    <android.widget.Button
+        android:id="@+id/option1"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/optionbuton"
+        android:text="PHYSICAL
+        FITNESS"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:translationX="50dp"
+        android:translationY="150dp" />
+
+    <android.widget.Button
+        android:id="@+id/option2"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/optionbuton"
+        android:text="MENTAL
+FITNESS"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:translationX="210dp"
+        android:translationY="150dp" />
+
+    <android.widget.Button
+        android:id="@+id/option3"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/optionbuton"
+        android:text="WATER
+                TRACKER"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:translationX="50dp"
+        android:translationY="300dp" />
+
+    <android.widget.Button
+        android:id="@+id/option4"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/optionbuton"
+        android:text="MEDICINE
+        REMINDER"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:translationX="210dp"
+        android:translationY="300dp" />
+
+    <android.widget.Button
+        android:id="@+id/option5"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/optionbuton"
+        android:text="PEDOMETER"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:translationX="50dp"
+        android:translationY="450dp" />
+
+    <android.widget.Button
+        android:id="@+id/option6"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/optionbuton"
+        android:text="DIET PLAN"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:translationX="210dp"
+        android:translationY="450dp" />
+
+
+</FrameLayout>

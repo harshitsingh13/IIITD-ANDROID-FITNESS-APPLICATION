@@ -11,4 +11,5 @@
     <color name="bl">#08186A</color>
     <color name="startColor">#65FB8F</color>
     <color name="endColor">#03A9F4</color>
+    <color name="grey">#ffffff</color>
 </resources>
