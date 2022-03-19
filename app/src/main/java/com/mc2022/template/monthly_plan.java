@@ -186,8 +186,9 @@ public class monthly_plan extends Fragment {
                 MainActivity.text="YOUR DAY-6";
                 FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                fragmentTransaction.replace(R.id.frameLayout, d1);
-                fragmentTransaction.addToBackStack(null);
+                if(!d1.isAdded())
+                    fragmentTransaction.add(R.id.frameLayout, d1);
+                fragmentTransaction.addToBackStack(String.valueOf(d1));
                 fragmentTransaction.commit();
                 //Intent intent=new Intent(MainActivity.this,Service_1.class);
                 //intent.putStringArrayListExtra("newlist",list);
@@ -453,8 +454,9 @@ public class monthly_plan extends Fragment {
                 MainActivity.text="YOUR DAY-21";
                 FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                fragmentTransaction.replace(R.id.frameLayout, d1);
-                fragmentTransaction.addToBackStack(null);
+                if(!d1.isAdded())
+                    fragmentTransaction.add(R.id.frameLayout, d1);
+                fragmentTransaction.addToBackStack(String.valueOf(d1));
                 fragmentTransaction.commit();
                 //Intent intent=new Intent(MainActivity.this,Service_1.class);
                 //intent.putStringArrayListExtra("newlist",list);
@@ -542,8 +544,10 @@ public class monthly_plan extends Fragment {
                 MainActivity.text="YOUR DAY-26";
                 FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                fragmentTransaction.replace(R.id.frameLayout, d1);
-                fragmentTransaction.addToBackStack(null);
+
+                if(!d1.isAdded())
+                    fragmentTransaction.add(R.id.frameLayout, d1);
+                fragmentTransaction.addToBackStack(String.valueOf(d1));
                 fragmentTransaction.commit();
                 //Intent intent=new Intent(MainActivity.this,Service_1.class);
                 //intent.putStringArrayListExtra("newlist",list);
