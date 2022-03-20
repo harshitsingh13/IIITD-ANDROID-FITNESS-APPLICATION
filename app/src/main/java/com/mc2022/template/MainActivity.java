@@ -26,7 +26,8 @@ public class MainActivity extends AppCompatActivity {
     public static int ex10=10;
     private static final String TAG = "msg";
     public static String text="";
-    options option=new options();
+    public static final options option=new options();
+    public static project1 pr=new project1();
     Button b1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,9 +36,8 @@ public class MainActivity extends AppCompatActivity {
 
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        if(!option.isAdded())
-            fragmentTransaction.add(R.id.frameLayout,option);
-        fragmentTransaction.addToBackStack(String.valueOf(option));
+        fragmentTransaction.replace(R.id.frameLayout,option);
+        fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();
 
         /*b1=(Button) findViewById(R.id.physical_fitness);//defining button for 'start service' button functionality

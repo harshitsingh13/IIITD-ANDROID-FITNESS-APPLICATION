@@ -10,6 +10,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -62,13 +64,32 @@ public class have_time extends Fragment {
     second s=new second();
     third t=new third();
     Button b1,b2,b3;
+    ImageView ig1,ig2;
+    TextView tv1,tv2;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view=inflater.inflate(R.layout.fragment_have_time, container, false);
-        b1=view.findViewById(R.id.button);
-        b1.setOnClickListener(new View.OnClickListener() {
+        ig1=view.findViewById(R.id.imageView13);
+        ig2=view.findViewById(R.id.imageView14);
+        tv1=view.findViewById(R.id.hvt1);
+        tv2=view.findViewById(R.id.hvt2);
+        //b1=view.findViewById(R.id.button);
+        ig1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout,f);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+        tv1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
@@ -82,13 +103,26 @@ public class have_time extends Fragment {
             }
         });
 
-        b2=view.findViewById(R.id.button2);
-        b2.setOnClickListener(new View.OnClickListener() {
+        //b2=view.findViewById(R.id.button2);
+        ig2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
                 fragmentTransaction.replace(R.id.frameLayout,s);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+        tv2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout,f);
                 fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
                 //Intent intent=new Intent(MainActivity.this,Service_1.class);

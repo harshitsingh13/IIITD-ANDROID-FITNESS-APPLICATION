@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".options">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:text="@string/hello_blank_fragment" />
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imageView14"
+        android:layout_width="350dp"
+        android:layout_height="180dp"
+        android:translationX="20dp"
+        android:translationY="10dp"
+        android:src="@drawable/stay" />
 
     <android.widget.Button
         android:id="@+id/option1"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
         android:background="@drawable/optionbuton"
         android:text="PHYSICAL
         FITNESS"
@@ -22,12 +26,12 @@
         android:textSize="20dp"
         android:textStyle="bold"
         android:translationX="50dp"
-        android:translationY="150dp" />
+        android:translationY="190dp" />
 
     <android.widget.Button
         android:id="@+id/option2"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
         android:background="@drawable/optionbuton"
         android:text="MENTAL
 FITNESS"
@@ -35,12 +39,12 @@ FITNESS"
         android:textSize="20dp"
         android:textStyle="bold"
         android:translationX="210dp"
-        android:translationY="150dp" />
+        android:translationY="190dp" />
 
     <android.widget.Button
         android:id="@+id/option3"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
         android:background="@drawable/optionbuton"
         android:text="WATER
                 TRACKER"
@@ -48,12 +52,12 @@ FITNESS"
         android:textSize="20dp"
         android:textStyle="bold"
         android:translationX="50dp"
-        android:translationY="300dp" />
+        android:translationY="330dp" />
 
     <android.widget.Button
         android:id="@+id/option4"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
         android:background="@drawable/optionbuton"
         android:text="MEDICINE
         REMINDER"
@@ -61,31 +65,47 @@ FITNESS"
         android:textSize="20dp"
         android:textStyle="bold"
         android:translationX="210dp"
-        android:translationY="300dp" />
+        android:translationY="330dp" />
 
     <android.widget.Button
         android:id="@+id/option5"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
         android:background="@drawable/optionbuton"
         android:text="PEDOMETER"
         android:textColor="@color/white"
         android:textSize="20dp"
         android:textStyle="bold"
         android:translationX="50dp"
-        android:translationY="450dp" />
+        android:translationY="470dp" />
 
     <android.widget.Button
         android:id="@+id/option6"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
         android:background="@drawable/optionbuton"
         android:text="DIET PLAN"
         android:textColor="@color/white"
         android:textSize="20dp"
         android:textStyle="bold"
         android:translationX="210dp"
-        android:translationY="450dp" />
+        android:translationY="470dp" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imageView12"
+        android:layout_width="260dp"
+        android:layout_height="180dp"
+        android:translationX="30dp"
+        android:translationY="580dp"
+        android:src="@drawable/veg" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imageView13"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:translationX="240dp"
+        android:translationY="610dp"
+        android:src="@drawable/avocadoworkout" />
 
 
 </FrameLayout>

@@ -23,6 +23,8 @@ public class options extends Fragment {
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
 
+    Button b1,b2,b3,b4,b5,b6;
+    project1 p1=new project1();
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
@@ -58,8 +60,7 @@ public class options extends Fragment {
         }
     }
 
-    Button b1,b2,b3,b4,b5,b6;
-    project1 p1=new project1();
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -71,9 +72,8 @@ public class options extends Fragment {
             public void onClick(View view) {
                 FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                if(!p1.isAdded())
-                    fragmentTransaction.replace(R.id.frameLayout,p1);
-                fragmentTransaction.addToBackStack(String.valueOf(p1));
+                fragmentTransaction.replace(R.id.frameLayout,p1);
+                fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
                 //Intent intent=new Intent(MainActivity.this,Service_1.class);
                 //intent.putStringArrayListExtra("newlist",list);

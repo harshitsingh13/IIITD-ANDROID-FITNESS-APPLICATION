@@ -51,7 +51,7 @@
 
 
 
-    <Spinner
+    <!--Spinner
         android:id="@+id/spinner1"
         android:layout_width="200dp"
         android:layout_height="70dp"
@@ -61,10 +61,10 @@
         android:textSize="24dp"
         android:textStyle="bold"
         android:translationX="50dp"
-        android:translationY="400dp" />
+        android:translationY="400dp" /-->
 
-    <TextView
-        android:id="@+id/spintxt"
+    <android.widget.Button
+        android:id="@+id/have_time"
         android:layout_width="300dp"
         android:layout_height="70dp"
         android:background="@drawable/buttonback"
@@ -75,7 +75,7 @@
         android:textSize="24dp"
         android:textStyle="bold"
         android:translationX="50dp"
-        android:translationY="400dp"/>
+        android:translationY="400dp" />
 
 
     <android.widget.Button
