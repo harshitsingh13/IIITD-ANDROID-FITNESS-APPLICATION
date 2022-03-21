@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/bg"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".userprofile">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+    <android.widget.Button
+        android:id="@+id/logoutbutton"
+        android:layout_width="83dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="3dp"
+        android:background="@drawable/logout"
+        android:translationX="175dp"
+        android:onClick="logout"/>
+
+
+    <TextView
+        android:id="@+id/verifymessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_below="@id/logoutbutton"
+        android:text="Email is not Verified"
+        android:textColor="@color/teal_700"
+        android:textColorHint="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        tools:visibility="invisible" />
+
+    <Button
+        android:id="@+id/sendcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/verifymessage"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="3dp"
+        android:text="Resend Code"
+        android:visibility="invisible"
+        tools:visibility="invisible" />
+
+        <Button
+            android:id="@+id/startbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:translationX="10dp"
+            android:translationY="500dp" />
+
+        <TextView
+            android:id="@+id/userprofile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sendcode"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/black"
+            android:gravity="center"
+            android:hint="USER PROFILE"
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/profilename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userprofile"
+            android:layout_margin="10dp"
+            android:background="@color/black"
+            android:gravity="left"
+            android:hint="User name"
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/profilegender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profilename"
+            android:layout_margin="10dp"
+            android:background="@color/black"
+            android:gravity="left"
+            android:hint="User gender"
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/profileemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profilegender"
+            android:layout_margin="10dp"
+            android:background="@color/black"
+            android:gravity="left"
+            android:hint="User email"
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/profileage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profileemail"
+            android:layout_margin="10dp"
+            android:background="@color/black"
+            android:gravity="left"
+            android:hint="User age"
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/profilenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profileage"
+            android:layout_margin="10dp"
+            android:background="@color/black"
+            android:gravity="left"
+            android:hint="User Number"
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+
+</RelativeLayout>

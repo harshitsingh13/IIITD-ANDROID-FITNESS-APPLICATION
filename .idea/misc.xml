@@ -8,7 +8,10 @@
         <entry key="..\:/Users/HARSHIT/StudioProjects/new-project/app/src/main/res/drawable/optionbuton.xml" value="0.1125" />
         <entry key="..\:/Users/HARSHIT/StudioProjects/new-project/app/src/main/res/drawable/spinnerlayout.xml" value="0.1055" />
         <entry key="..\:/Users/HARSHIT/StudioProjects/new-project/app/src/main/res/layout-land/fragment_options.xml" value="0.1728395061728395" />
+        <entry key="..\:/Users/HARSHIT/StudioProjects/new-project/app/src/main/res/layout/activity_login.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/HARSHIT/StudioProjects/new-project/app/src/main/res/layout/activity_main.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/HARSHIT/StudioProjects/new-project/app/src/main/res/layout/activity_register.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/HARSHIT/StudioProjects/new-project/app/src/main/res/layout/activity_userprofile.xml" value="0.1" />
         <entry key="..\:/Users/HARSHIT/StudioProjects/new-project/app/src/main/res/layout/for_monthly.xml" value="0.16485507246376813" />
         <entry key="..\:/Users/HARSHIT/StudioProjects/new-project/app/src/main/res/layout/fragment_day1.xml" value="0.18" />
         <entry key="..\:/Users/HARSHIT/StudioProjects/new-project/app/src/main/res/layout/fragment_first.xml" value="0.15942028985507245" />
@@ -16,10 +19,11 @@
         <entry key="..\:/Users/HARSHIT/StudioProjects/new-project/app/src/main/res/layout/fragment_less_time.xml" value="0.1701388888888889" />
         <entry key="..\:/Users/HARSHIT/StudioProjects/new-project/app/src/main/res/layout/fragment_monthly_plan.xml" value="0.14" />
         <entry key="..\:/Users/HARSHIT/StudioProjects/new-project/app/src/main/res/layout/fragment_news_list.xml" value="0.17074275362318841" />
-        <entry key="..\:/Users/HARSHIT/StudioProjects/new-project/app/src/main/res/layout/fragment_options.xml" value="0.25" />
-        <entry key="..\:/Users/HARSHIT/StudioProjects/new-project/app/src/main/res/layout/fragment_project1.xml" value="0.25" />
+        <entry key="..\:/Users/HARSHIT/StudioProjects/new-project/app/src/main/res/layout/fragment_options.xml" value="0.2391304347826087" />
+        <entry key="..\:/Users/HARSHIT/StudioProjects/new-project/app/src/main/res/layout/fragment_project1.xml" value="0.12092391304347826" />
         <entry key="..\:/Users/HARSHIT/StudioProjects/new-project/app/src/main/res/layout/fragment_project2.xml" value="0.22" />
         <entry key="..\:/Users/HARSHIT/StudioProjects/new-project/app/src/main/res/layout/fragment_second.xml" value="0.15" />
+        <entry key="..\:/Users/HARSHIT/StudioProjects/new-project/app/src/main/res/layout/fragment_stress.xml" value="0.1" />
         <entry key="..\:/Users/HARSHIT/StudioProjects/new-project/app/src/main/res/layout/fragment_third.xml" value="0.1" />
         <entry key="..\:/Users/HARSHIT/StudioProjects/new-project/app/src/main/res/layout/monthly_plan.xml" value="0.23357664233576642" />
         <entry key="..\:/Users/HARSHIT/StudioProjects/new-project/app/src/main/res/layout/rows.xml" value="0.16485507246376813" />

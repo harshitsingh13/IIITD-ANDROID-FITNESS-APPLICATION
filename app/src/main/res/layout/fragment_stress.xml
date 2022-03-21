@@ -2,29 +2,28 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_marginTop="0dp"
-    tools:context=".less_time">
+    android:layout_height="700dp"
+    tools:context=".stress">
 
     <!-- TODO: Update blank fragment layout -->
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="700dp">
 
         <RelativeLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="700dp"
             android:orientation="vertical" >
 
             <TextView
-                android:id="@+id/textthird"
+                android:id="@+id/textsecond"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="0dp"
                 android:background="@color/teal_200"
                 android:gravity="center"
                 android:padding="10dp"
-                android:text="QUICK EXERCISES"
+                android:text="STRESS MANAGEMENT"
                 android:textColor="@color/bl"
                 android:textSize="28dp"
                 android:textStyle="bold" />
@@ -33,23 +32,23 @@
                 android:id="@+id/freq1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/textthird"
+                android:layout_below="@+id/textsecond"
                 android:background="@color/underline"
                 android:gravity="center"
                 android:padding="10dp"
-                android:text="Chair Squats"
+                android:text="The Name Game"
                 android:textColor="@color/black"
-                android:textSize="17dp"
+                android:textSize="22dp"
                 android:textStyle="bold" />
 
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView1"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="390dp"
                 android:layout_below="@id/freq1"
                 android:layout_gravity="left"
                 android:background="@color/teal_200"
-                android:src="@drawable/c1" />
+                android:src="@drawable/thename" />
 
 
             <TextView
@@ -58,13 +57,12 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/imageView1"
                 android:background="@color/underline"
-                android:text="Good for: Lower Body
-
-\nDescription: Lower yourself until you gently touch the chair and then stand back up, remembering to breathe. Repeat. For extra points, hover just over the chair for 30 seconds.
-\nTime: 1 minute
-\nCalorie Burned: 20 calories"
+                android:text="This game is simpler than Eye Spy and yet it can be a powerful tool to curb spiraling
+thoughts. First, look around you and name three things you can hear, then two things
+you can see, and finally one sensation that you feel. By doing this, you are grounding
+yourself by increasing your awareness of your body and your environment."
                 android:textColor="@color/black"
-                android:textSize="17dp"
+                android:textSize="20dp"
                 android:textStyle="italic" />
 
             <View
@@ -82,20 +80,20 @@
                 android:background="@color/underline"
                 android:gravity="center"
                 android:padding="10dp"
-                android:text="Knee Lifts"
+                android:text="Intention Setting Exercises"
                 android:textColor="@color/black"
-                android:textSize="17dp"
+                android:textSize="22dp"
                 android:textStyle="bold" />
 
 
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView2"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="390dp"
                 android:layout_below="@id/freq2"
                 android:layout_gravity="left"
                 android:background="@color/teal_200"
-                android:src="@drawable/c2" />
+                android:src="@drawable/intention" />
 
 
             <TextView
@@ -104,12 +102,13 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/imageView2"
                 android:background="@color/underline"
-                android:text="Good for: Legs, abdomen and upper thighs
-\nDescription: Standing on the spot, lift your leg up in front of you, bringing both arms down on either side at the same time. Repeat this action on the other leg and swap between them multiple times.
-\nTiming: 5 minutes
-\nCalories Burned: 30 calories"
+                android:text="Before you open up your laptop and begin your usual grind, take a few
+moments to center yourself.&quot;Setting aside a little time in the morning
+to set intentions helps you start the day with a clear mind. This can
+include journaling, movement, reading, or meditation. Be flexible and
+do what feels best.&quot;"
                 android:textColor="@color/black"
-                android:textSize="17dp"
+                android:textSize="20dp"
                 android:textStyle="italic" />
 
             <View
@@ -127,19 +126,19 @@
                 android:background="@color/underline"
                 android:gravity="center"
                 android:padding="10dp"
-                android:text="Back Extensions"
+                android:text="Deep Breathing Exercise"
                 android:textColor="@color/black"
-                android:textSize="17dp"
+                android:textSize="22dp"
                 android:textStyle="bold" />
 
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView3"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="390dp"
                 android:layout_below="@id/freq3"
                 android:layout_gravity="left"
                 android:background="@color/teal_200"
-                android:src="@drawable/c3" />
+                android:src="@drawable/deep" />
 
 
             <TextView
@@ -148,13 +147,16 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/imageView3"
                 android:background="@color/underline"
-                android:text="Good for: Back and glutes
-\nDescription: Position yourself behind your chair at your desk and hold onto the back for support. Raise your right arm towards the ceiling and lift your left leg behind you for 30 seconds to stretch out your back. Repeat the action with the opposite arm and leg.
-\nTiming: 1 min
-\nCalories Burned: 20 calories
-"
+                android:text="The quality of our breathing tells us a lot about where our headspace is at. Chances
+are, if you're feeling a bit anxious, your breath may feel short, shallow, or
+constrained. So one simple way to relieve stress is to practice deep breathing through
+the diaphragm.\n
+&quot;Taking long, deep breaths when feeling cluttered, distracted, or ungrounded begins
+to relax the nervous system and draws the attention to the present moment, which in
+turn promotes a feeling of intimacy with the body, with the earth, and with the
+natural spaciousness that is inherent in each moment,&quot; says Randhawa."
                 android:textColor="@color/black"
-                android:textSize="17dp"
+                android:textSize="20dp"
                 android:textStyle="italic" />
 
             <View
@@ -169,22 +171,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/u3"
-                android:text="Seated Arm Circles"
-                android:textColor="@color/black"
-                android:textSize="17dp"
+                android:background="@color/underline"
                 android:gravity="center"
                 android:padding="10dp"
-                android:background="@color/underline"
+                android:text="4.The Wiggle and Freeze Game"
+                android:textColor="@color/black"
+                android:textSize="22dp"
                 android:textStyle="bold" />
 
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView4"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="390dp"
                 android:layout_below="@id/freq4"
                 android:layout_gravity="left"
                 android:background="@color/teal_200"
-                android:src="@drawable/c4" />
+                android:src="@drawable/thewiggle" />
 
 
             <TextView
@@ -193,11 +195,15 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/imageView4"
                 android:background="@color/underline"
-                android:text="Good for: Arms\nDescription: While sitting down, stretch your arms out at your sides and press your shoulder blades together. With your palms facing down, circle your arms forwards around 20 times. Then, face your palms upwards and circle your arms backwards around 20 times. After this, circle your wrists 20 times in each direction.
-\nTiming: 2 minutes
-\nCalories Burned: 15 calories"
+                android:text="It’s a fun way to move around, and to start cultivating a greater
+awareness of bodily sensations, which is a core component of mindfulness practice.\n
+In this game you and your kid (or friend), wiggle, bounce around, or
+dance until you say &quot;Freeze!&quot;. Then everyone freezes and takes a
+moment to notice what they can feel in their body — perhaps
+movement, tingling, heat, shaking, buzzing, or something else,&quot; says
+Beach. &quot;You can repeat it as many times as you’d like!&quot;"
                 android:textColor="@color/black"
-                android:textSize="17dp"
+                android:textSize="20dp"
                 android:textStyle="italic" />
 
             <View
@@ -212,22 +218,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/u4"
-                android:text="Lunge and Walk"
+                android:text="Candle Study Exercise"
                 android:textColor="@color/black"
                 android:gravity="center"
                 android:padding="10dp"
                 android:background="@color/underline"
-                android:textSize="17dp"
+                android:textSize="22dp"
                 android:textStyle="bold" />
 
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView5"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="390dp"
                 android:layout_below="@id/freq5"
                 android:layout_gravity="left"
                 android:background="@color/teal_200"
-                android:src="@drawable/c5" />
+                android:src="@drawable/candle" />
 
 
             <TextView
@@ -236,12 +242,12 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/imageView5"
                 android:background="@color/underline"
-                android:text="Good for: Legs, thighs and quadriceps
-\nDescription: Find an empty space, such as a meeting room or corridor and try lunging as you walk. You can use tables and chairs for support if needed.
-\nTiming: 15 Minutes
-\nCalories Burned:137 calories"
+                android:text="Light your favorite candle, sit comfortably, and watch the flame sway
+and flicker. &quot;This is actually a form of meditation,&quot;. Gaze at candle for
+five to 10 minutes and let your mind wander, she says. Observe your
+thoughts. Let them pass without judgement."
                 android:textColor="@color/black"
-                android:textSize="17dp"
+                android:textSize="20dp"
                 android:textStyle="italic" />
 
             <View
@@ -256,22 +262,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/u5"
-                android:text="Desk Dips"
+                android:text="Tea Drinking Exercise"
                 android:textColor="@color/black"
                 android:gravity="center"
                 android:padding="10dp"
                 android:background="@color/underline"
-                android:textSize="17dp"
+                android:textSize="22dp"
                 android:textStyle="bold" />
 
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView6"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="390dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq6"
                 android:background="@color/teal_200"
-                android:src="@drawable/c6" />
+                android:src="@drawable/tea" />
 
 
             <TextView
@@ -279,12 +285,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/imageView6"
-                android:text="Good for: Triceps
-\nDeception: Position yourself on the very edge of your desk with your palms placed on either side of you and your feet flat on the floor. Bend at the elbow and lower yourself towards the floor until your elbows are bent at 90 degrees, aim to hold the pose for 30 seconds.
-\nTiming: 5 mins
-\nCalories Burned: 20 calories
-"
-                android:textSize="17dp"
+                android:text="If you love drinking tea every day, why not try drinking it a little bit
+slower? Better yet, try drawing you attention to the sensations, smells,
+or sounds you observe from the moment you start brewing to the
+moment you finish your cup. &quot;Notice how it feels to make the tea, the
+color of the tea leaves, the sound of the kettle, the shape of the mug,
+the scent that arises, what the tea tastes like, and how it feels in the
+body as you make and drink the tea&quot;. Invite yourself to meet the
+activity with an embodied presence by noticing sensations that arise
+as you drink the tea and how often the mind wanders. Then with
+compassionate awareness, gently bring the mind back to the tea, back
+to the body, resting it in the present moment.&quot;"
+                android:textSize="20dp"
                 android:background="@color/underline"
                 android:textColor="@color/black"
                 android:textStyle="italic" />
@@ -301,9 +313,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/u6"
-                android:text="Calf Raises"
+                android:text="Pyramid Pose (Parsvottanasana)"
                 android:textColor="@color/black"
-                android:textSize="17dp"
+                android:textSize="22dp"
                 android:gravity="center"
                 android:padding="10dp"
                 android:background="@color/underline"
@@ -312,11 +324,11 @@
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView7"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="390dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq7"
                 android:background="@color/teal_200"
-                android:src="@drawable/c7" />
+                android:src="@drawable/berry" />
 
 
             <TextView
@@ -324,11 +336,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/imageView7"
-                android:text="Good for: Shoulders, calves and legs
-\nDescription: Using a sturdy object for support, stand on your tip toes and hold the pose for 15 seconds to strengthen the backs of your legs.
-\nTiming: 10 Minutes
-\nCalories Burned: 34 calories"
-                android:textSize="17dp"
+                android:text="When it comes to mealtime, many of us scarf down our food while
+watching TV, scrolling on our phones, or typing on our computers.
+Since we&#39;re distracted, sometimes we eat our food too fast, increasing
+the risk of overeating, indigestion, bloating, and gas. That&#39;s a recipe
+for crankiness and irritability. So, here&#39;s a challenge for you: try to eat
+a strawberry as slow as possible. &quot;To begin, aim for 30 seconds to a
+minute.&quot;"
+                android:textSize="20dp"
                 android:background="@color/underline"
                 android:textColor="@color/black"
                 android:textStyle="italic" />
@@ -345,9 +360,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/u7"
-                android:text="Seated Torso Crunch"
+                android:text="Gratitude List Exercise"
                 android:textColor="@color/black"
-                android:textSize="17dp"
+                android:textSize="22dp"
                 android:gravity="center"
                 android:padding="10dp"
                 android:background="@color/underline"
@@ -356,11 +371,11 @@
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView8"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="390dp"
                 android:layout_below="@id/freq8"
                 android:layout_gravity="left"
                 android:background="@color/teal_200"
-                android:src="@drawable/c8" />
+                android:src="@drawable/gratitute" />
 
             <TextView
                 android:id="@+id/textView8"
@@ -368,12 +383,15 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/imageView8"
                 android:background="@color/underline"
-                android:text="Good for: Torso
-\nDescription: Sitting on the very edge of a non-moving seat, hold on to the sides of the chair and pull your knees together while raising your legs towards the ceiling. Repeat this action multiple times.
-\nTiming: 1 minute
-\nCalories Burned: 30 calories"
+                android:text="After you wake up in the morning or before you go to bed at night,
+write five to 10 things that you are grateful for.&quot;Gratitude lists are the
+quickest way to ground yourself in difficult times because they help
+you focus on what is working,&quot; says Eskandani. &quot;The trick, though, is
+to get specific. So instead of just writing down &#39;I am grateful for
+family,&#39; try: &#39;I am grateful for the zoom call I had with my parents and
+sister last night.&quot;"
                 android:textColor="@color/black"
-                android:textSize="17dp"
+                android:textSize="20dp"
                 android:textStyle="italic" />
 
             <View
@@ -388,9 +406,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/u8"
-                android:text="Leg Raises"
+                android:text="Follow Your Breath Exercise"
                 android:textColor="@color/black"
-                android:textSize="17dp"
+                android:textSize="22dp"
                 android:gravity="center"
                 android:padding="10dp"
                 android:background="@color/underline"
@@ -399,23 +417,23 @@
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView9"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="390dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq9"
                 android:background="@color/teal_200"
-                android:src="@drawable/c9" />
+                android:src="@drawable/follow" />
 
             <TextView
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/imageView9"
-                android:text="Good for: Thighs and quads
-\nDescription: Under your desk, simply raise both legs at once upwards, and slowly lower them down. Repeat this action over multiple times.
-\nTiming: 10 minutes
-\nCalories Burned: 70 calories
-"
-                android:textSize="17dp"
+                android:text="This activity is awesome to do with your child or even by yourself. You
+can also combine this with any deep breathing techniques. If you&#39;re
+doing this with your kid, invite them to breathe with you. Ask them:
+Can they feel their breath in their nose? In their chest or belly? Can
+they hear their breath?"
+                android:textSize="20dp"
                 android:background="@color/underline"
                 android:textColor="@color/black"
                 android:textStyle="italic" />
@@ -432,34 +450,34 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/u9"
-                android:text="Stand at Your Desk"
+                android:text="Stillness Exercise"
                 android:textColor="@color/black"
                 android:gravity="center"
                 android:padding="10dp"
                 android:background="@color/underline"
-                android:textSize="17dp"
+                android:textSize="22dp"
                 android:textStyle="bold" />
 
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/imageView10"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="390dp"
                 android:layout_gravity="left"
                 android:layout_below="@id/freq10"
                 android:background="@color/teal_200"
-                android:src="@drawable/c10" />
+                android:src="@drawable/still" />
 
             <TextView
                 android:id="@+id/textView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/imageView10"
-                android:text="Good for: Lower blood sugar levels, reduce back pain.
-\nDescription: Simply standing at your desk while you work is a low intensity way to boost your health and improve your posture. You don’t need to surrender your seat altogether, try standing for half the day. Make sure your desk can be properly converted into a standing workspace to avoid any aches and pains.
-\nTiming: 3.5 hours
-\nCalories Burned: 170 calories
-"
-                android:textSize="17dp"
+                android:text="For many, the word &quot;meditation&quot; can feel intimidating. But instead of
+thinking about mastering meditation, think about practicing stillness.
+This can be as simple as focusing on your breath, a mantra (if you
+have one you like), or an image. You can do this for five minutes, 20
+minutes, or however long you choose to be still."
+                android:textSize="20dp"
                 android:background="@color/underline"
                 android:textColor="@color/black"
                 android:textStyle="italic" />

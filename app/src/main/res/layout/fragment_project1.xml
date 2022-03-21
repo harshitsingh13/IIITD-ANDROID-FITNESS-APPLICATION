@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
     android:background="@color/white"
     tools:context=".project1">
 
@@ -25,9 +26,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="500dp"
+        android:layout_below="@id/physcicalfitnessfunctionality"
         android:src="@drawable/img"
         android:translationX="0dp"
-        android:translationY="50dp" />
+        android:translationY="0dp" />
 
     <android.widget.Button
         android:id="@+id/less_time"
@@ -39,7 +41,7 @@
         android:textSize="24dp"
         android:textStyle="bold"
         android:translationX="50dp"
-        android:translationY="300dp" />
+        android:translationY="270dp" />
 
     <!--Button
         android:id="@+id/have_time"
@@ -75,7 +77,7 @@
         android:textSize="24dp"
         android:textStyle="bold"
         android:translationX="50dp"
-        android:translationY="400dp" />
+        android:translationY="370dp" />
 
 
     <android.widget.Button
@@ -88,7 +90,7 @@
         android:textSize="24dp"
         android:textStyle="bold"
         android:translationX="50dp"
-        android:translationY="500dp" />
+        android:translationY="470dp" />
 
     <android.widget.Button
         android:id="@+id/elderly_exercise"
@@ -101,7 +103,7 @@
         android:textSize="24dp"
         android:textStyle="bold"
         android:translationX="50dp"
-        android:translationY="600dp" />
+        android:translationY="570dp" />
 
 
 

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
     android:background="@color/white"
     tools:context=".have_time">
 
@@ -13,12 +14,12 @@
     <TextView
         android:id="@+id/texthavetime"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="60dp"
         android:background="@color/teal_200"
+        android:padding="15dp"
         android:text="Click below according to your time!"
         android:textColor="@color/bl"
-        android:padding="20dp"
-        android:textSize="23dp"
+        android:textSize="21dp"
         android:textStyle="italic" />
 
     <pl.droidsonroids.gif.GifImageView
@@ -28,7 +29,7 @@
         android:layout_centerHorizontal="true"
         android:background="@drawable/corridanike"
         android:translationX="0dp"
-        android:translationY="70dp" />
+        android:translationY="60dp" />
 
     <TextView
         android:id="@+id/hvt1"
@@ -37,10 +38,10 @@
         android:text="Duration: 30min - 45min\n Exercise type: Cardio, Aerobics."
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="20dp"
+        android:textSize="18dp"
         android:textStyle="italic"
         android:translationX="0dp"
-        android:translationY="300dp" />
+        android:translationY="290dp" />
 
     <View
         android:id="@+id/ud1"
@@ -48,7 +49,7 @@
         android:layout_height="20dp"
         android:background="@color/teal_200"
         android:translationX="0dp"
-        android:translationY="370dp" />
+        android:translationY="360dp" />
 
 
     <pl.droidsonroids.gif.GifImageView
@@ -58,19 +59,19 @@
         android:layout_centerHorizontal="true"
         android:background="@drawable/yoga"
         android:translationX="0dp"
-        android:translationY="390dp" />
+        android:translationY="380dp" />
 
     <TextView
         android:id="@+id/hvt2"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:text="Duration: 45min - 60min\n Exercise type: Yoga"
-        android:textColor="@color/black"
         android:textAlignment="center"
-        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textSize="18dp"
         android:textStyle="italic"
         android:translationX="0dp"
-        android:translationY="640dp" />
+        android:translationY="630dp" />
     <!--android.widget.Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
