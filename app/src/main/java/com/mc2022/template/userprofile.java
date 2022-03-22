@@ -12,6 +12,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.FrameLayout;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -34,6 +35,8 @@ public class userprofile extends AppCompatActivity {
     String userID;
     options option=new options();
     FrameLayout fr;
+    ImageView ig;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,7 +52,7 @@ public class userprofile extends AppCompatActivity {
         userweight=findViewById(R.id.weight);
         userheight=findViewById(R.id.height);
         b1=(Button) findViewById(R.id.startbutton);
-
+        ig=findViewById(R.id.logoappuserprofile);
         sendcode=findViewById(R.id.sendcode);
         emailmessage=findViewById(R.id.verifymessage);
 
@@ -124,7 +127,7 @@ public class userprofile extends AppCompatActivity {
                 b1.setVisibility(view.GONE);
                 userheight.setVisibility(view.GONE);
                 userweight.setVisibility(view.GONE);
-
+                ig.setVisibility(view.GONE);
                 //fr.setVisibility(view.INVISIBLE);
                 fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();

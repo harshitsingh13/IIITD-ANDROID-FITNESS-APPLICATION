@@ -6,21 +6,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="0dp"
-    android:background="@drawable/back1"
+    android:background="@color/white"
     tools:context=".Register">
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_gravity="left"
-        android:layout_marginStart="66dp"
-        android:layout_marginTop="47dp"
-        android:src="@drawable/fitnesslogo" />
+        android:layout_width="300dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/app_logo" />
 
-    <TextView
+    <!--TextView
         android:id="@+id/appname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -34,14 +31,15 @@
         android:text="My Fitness App"
         android:textColor="@color/purple_700"
         android:textSize="30dp"
-        android:textStyle="bold" />
+        android:textStyle="bold" /-->
 
     <TextView
         android:id="@+id/messagecreate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/appname"
         android:layout_alignParentStart="true"
+        android:layout_marginTop="150dp"
+        android:background="@color/white"
         android:gravity="center"
         android:text="Create a New Account"
         android:textColor="@color/black"
@@ -199,7 +197,7 @@
         android:textSize="15dp"
         android:textStyle="bold" />
 
-    <Button
+    <android.widget.Button
         android:id="@+id/registerbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -207,20 +205,16 @@
         android:layout_centerInParent="true"
         android:layout_marginTop="-5dp"
         android:hint="Register"
+        android:textStyle="bold"
         android:textColorHint="@color/black" />
 
     <TextView
         android:id="@+id/loginhere"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/registerbutton"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="2dp"
-        android:layout_marginLeft="20dp"
         android:layout_marginTop="12dp"
-        android:layout_marginEnd="2dp"
         android:layout_marginBottom="20dp"
         android:background="@color/teal_200"
         android:gravity="center"
