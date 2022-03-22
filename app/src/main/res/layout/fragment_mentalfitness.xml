@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mentalfitness">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="MENTAL FITNESS"
+        android:textAlignment="center"
+        android:textSize="28dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <android.widget.Button
+        android:id="@+id/stress_management"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:background="@drawable/buttonback"
+        android:text="stress management"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:translationX="50dp"
+        android:translationY="270dp" />
+
+    <android.widget.Button
+        android:id="@+id/meditation"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:background="@drawable/buttonback"
+        android:padding="20dp"
+        android:text="meditation"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:translationX="50dp"
+        android:translationY="370dp" />
+
+
+    <android.widget.Button
+        android:id="@+id/anger_management"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:background="@drawable/buttonback"
+        android:text="anger management"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:translationX="50dp"
+        android:translationY="470dp" />
+
+    <android.widget.Button
+        android:id="@+id/mental_instructor"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:background="@drawable/buttonback"
+        android:padding="20dp"
+        android:text="instructor timing"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:translationX="50dp"
+        android:translationY="570dp" />
+
+
+</RelativeLayout>

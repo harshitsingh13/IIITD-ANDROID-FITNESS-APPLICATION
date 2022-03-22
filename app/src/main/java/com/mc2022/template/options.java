@@ -25,7 +25,7 @@ public class options extends Fragment {
 
     Button b1,b2,b3,b4,b5,b6;
     project1 p1=new project1();
-    stress st=new stress();
+    mentalfitness mf=new mentalfitness();
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
@@ -88,7 +88,7 @@ public class options extends Fragment {
             public void onClick(View view) {
                 FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                fragmentTransaction.replace(R.id.frameLayout,st);
+                fragmentTransaction.replace(R.id.frameLayout,mf);
                 fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
                 //Intent intent=new Intent(MainActivity.this,Service_1.class);

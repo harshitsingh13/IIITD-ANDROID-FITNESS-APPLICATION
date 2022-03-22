@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".meditation">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:background="@color/teal_200"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="MEDITATION"
+                android:textColor="@color/bl"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/head1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text1"
+                android:background="@color/underline"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Basic Mindfulness Meditation"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head1"
+                android:background="@color/underline"
+                android:text="Step 1:\nFind a comfortable place to sit, and a posture that is both alert and relaxed at the
+same time. See if you can make the spine erect, without being too rigid."
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/img1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/body1"
+                android:background="@color/teal_200"
+                android:src="@color/black" />
+
+            <TextView
+                android:id="@+id/body2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img1"
+                android:background="@color/underline"
+                android:text="STEP 2\n
+Close your eyes (or leave them slightly open if you prefer), and take a few slow
+breaths. Take a few moments to loosen your body from your head to your toes, and
+take a few more deep breaths."
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/img2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/body2"
+                android:background="@color/teal_200"
+                android:src="@color/black" />
+
+            <TextView
+                android:id="@+id/body3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img2"
+                android:background="@color/underline"
+                android:text="STEP 3\n
+Stop to notice the sensations throughout your body — the warmth, the coolness or
+any discomfort. Be aware of them, but try not to fidget too much."
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/img3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/body3"
+                android:background="@color/teal_200"
+                android:src="@color/black" />
+
+            <TextView
+                android:id="@+id/body4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img3"
+                android:background="@color/underline"
+                android:text="STEP 4\n
+Pick one sensation — such as the feeling of your breath going in and out — and
+devote your attention to it. Just focus on that."
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/img4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/body4"
+                android:background="@color/teal_200"
+                android:src="@color/black" />
+
+            <TextView
+                android:id="@+id/body5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img4"
+                android:background="@color/underline"
+                android:text="STEP 5\n
+When your mind wanders, bring your attention back to the breath. After a few
+moments, your mind may wander again. Once again, notice that and simply return
+your attention back to the present moment."
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/img5"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/body5"
+                android:background="@color/teal_200"
+                android:src="@color/black" />
+
+            <TextView
+                android:id="@+id/body6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img5"
+                android:background="@color/underline"
+                android:text="STEP 6\n
+When you’re ready — after one minute, 10 minutes or 30 minutes — open your
+eyes. Though your formal meditation practice may have ended, your mindful
+awareness can continue throughout the day."
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/img6"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/body6"
+                android:background="@color/teal_200"
+                android:src="@color/black" />
+
+
+            <View
+                android:id="@+id/u1"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/img6"
+                android:background="@color/teal_200" />
+
+            <TextView
+                android:id="@+id/head2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/u1"
+                android:background="@color/underline"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="When the Mind Wanders"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/body21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head2"
+                android:background="@color/underline"
+                android:text="STEP 1\n
+During a meditation session, your mind will inevitably wander off."
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/img21"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/body21"
+                android:background="@color/teal_200"
+                android:src="@color/black" />
+
+            <TextView
+                android:id="@+id/body22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img21"
+                android:background="@color/underline"
+                android:text="STEP 2\n
+When it does, notice what was distracting you, then take a moment and pause. Let go of the
+thought, and gently return your awareness to the breath, being present for each inhalation and
+exhalation."
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/img22"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/body22"
+                android:background="@color/teal_200"
+                android:src="@color/black" />
+
+            <TextView
+                android:id="@+id/body23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img22"
+                android:background="@color/underline"
+                android:text="STEP 3\n
+Don’t judge your thoughts. Thinking is natural, and there’s nothing inherently good or bad
+about it. It’s simply what the mind does. Just come back to the present moment."
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/img23"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/body23"
+                android:background="@color/teal_200"
+                android:src="@color/black" />
+
+            <TextView
+                android:id="@+id/body24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img23"
+                android:background="@color/underline"
+                android:text="STEP 4\n
+Inevitably, your mind will wander again. Just acknowledge whatever it is you were thinking
+of and resume your meditation."
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/img24"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/body24"
+                android:background="@color/teal_200"
+                android:src="@color/black" />
+
+            <TextView
+                android:id="@+id/body25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img24"
+                android:background="@color/underline"
+                android:text="STEP 5\n
+With time, it will become easier to keep your attention focused on the breath or the body. But
+even for the most experienced meditators, the mind is prone to wander. When it does, begin
+again."
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/img25"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/body25"
+                android:background="@color/teal_200"
+                android:src="@color/black" />
+
+            <View
+                android:id="@+id/u2"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/img25"
+                android:background="@color/teal_200" />
+
+            <TextView
+                android:id="@+id/head3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/u2"
+                android:background="@color/underline"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Mindfulness Meditation Practices"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/body31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head3"
+                android:background="@color/underline"
+                android:text="Listening to basic guided meditations can also be helpful,
+
+especially when getting started."
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>
