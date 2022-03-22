@@ -33,15 +33,15 @@
 
     <android.widget.Button
         android:id="@+id/less_time"
-        android:layout_width="300dp"
+        android:layout_width="320dp"
         android:layout_height="70dp"
         android:background="@drawable/buttonback"
         android:text="less time"
         android:textColor="@color/white"
         android:textSize="24dp"
         android:textStyle="bold"
-        android:translationX="50dp"
-        android:translationY="270dp" />
+        android:translationX="40dp"
+        android:translationY="230dp" />
 
     <!--Button
         android:id="@+id/have_time"
@@ -62,12 +62,12 @@
         android:textColor="@color/black"
         android:textSize="24dp"
         android:textStyle="bold"
-        android:translationX="50dp"
+        android:translationX="40dp"
         android:translationY="400dp" /-->
 
     <android.widget.Button
         android:id="@+id/have_time"
-        android:layout_width="300dp"
+        android:layout_width="320dp"
         android:layout_height="70dp"
         android:background="@drawable/buttonback"
         android:padding="20dp"
@@ -76,25 +76,25 @@
         android:textColor="@color/white"
         android:textSize="24dp"
         android:textStyle="bold"
-        android:translationX="50dp"
-        android:translationY="370dp" />
+        android:translationX="40dp"
+        android:translationY="330dp" />
 
 
     <android.widget.Button
         android:id="@+id/monthly_plan"
-        android:layout_width="300dp"
+        android:layout_width="320dp"
         android:layout_height="70dp"
         android:background="@drawable/buttonback"
         android:text="monthly plan"
         android:textColor="@color/white"
         android:textSize="24dp"
         android:textStyle="bold"
-        android:translationX="50dp"
-        android:translationY="470dp" />
+        android:translationX="40dp"
+        android:translationY="430dp" />
 
     <android.widget.Button
         android:id="@+id/elderly_exercise"
-        android:layout_width="300dp"
+        android:layout_width="320dp"
         android:layout_height="70dp"
         android:background="@drawable/buttonback"
         android:padding="20dp"
@@ -102,8 +102,21 @@
         android:textColor="@color/white"
         android:textSize="24dp"
         android:textStyle="bold"
-        android:translationX="50dp"
-        android:translationY="570dp" />
+        android:translationX="40dp"
+        android:translationY="530dp" />
+
+    <android.widget.Button
+        android:id="@+id/physical_instructor"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:background="@drawable/buttonback"
+        android:padding="20dp"
+        android:text="instructor schedule"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:translationX="40dp"
+        android:translationY="630dp" />
 
 
 

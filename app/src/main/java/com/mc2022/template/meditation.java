@@ -102,10 +102,8 @@ public class meditation extends Fragment {
         s1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(music1!=null){
-                    music1.release();
+                music1.stop();
                     music1=MediaPlayer.create(getActivity(), R.raw.one_min);
-                }
                 //Intent intent=new Intent(MainActivity.this,Service_1.class);
                 //intent.putStringArrayListExtra("newlist",list);
                 //startService(intent);
@@ -139,11 +137,9 @@ public class meditation extends Fragment {
         s2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(music2!=null){
-                    music2.release();
+                music2.stop();
                     music2=MediaPlayer.create(getActivity(), R.raw.four_min);
 
-                }
                 //Intent intent=new Intent(MainActivity.this,Service_1.class);
                 //intent.putStringArrayListExtra("newlist",list);
                 //startService(intent);
@@ -178,11 +174,9 @@ public class meditation extends Fragment {
         s3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(music3!=null){
-                    music3.release();
+                music3.stop();
                     music3=MediaPlayer.create(getActivity(), R.raw.ten_min);
 
-                }
                 //Intent intent=new Intent(MainActivity.this,Service_1.class);
                 //intent.putStringArrayListExtra("newlist",list);
                 //startService(intent);
@@ -218,12 +212,9 @@ public class meditation extends Fragment {
         s4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(music4!=null){
-                    music4.release();
+                music4.stop();
                     music4=MediaPlayer.create(getActivity(), R.raw.fifteen_min);
-
-                }
-                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+//Intent intent=new Intent(MainActivity.this,Service_1.class);
                 //intent.putStringArrayListExtra("newlist",list);
                 //startService(intent);
             }
@@ -258,12 +249,9 @@ public class meditation extends Fragment {
         s41.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(music41!=null){
-                    music41.release();
+                music41.stop();
                     music41=MediaPlayer.create(getActivity(), R.raw.body_scan);
-
-                }
-                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+//Intent intent=new Intent(MainActivity.this,Service_1.class);
                 //intent.putStringArrayListExtra("newlist",list);
                 //startService(intent);
             }
@@ -297,11 +285,9 @@ public class meditation extends Fragment {
         s51.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(music51!=null){
-                    music51.release();
+                music51.stop();
                     music51=MediaPlayer.create(getActivity(), R.raw.fifteen_min_rebounce);
 
-                }
                 //Intent intent=new Intent(MainActivity.this,Service_1.class);
                 //intent.putStringArrayListExtra("newlist",list);
                 //startService(intent);
@@ -336,10 +322,9 @@ public class meditation extends Fragment {
         s61.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(music61!=null){
-                    music61.release();
+
+                    music61.stop();
                     music61=MediaPlayer.create(getActivity(), R.raw.mindful_eating);
-                }
                 //Intent intent=new Intent(MainActivity.this,Service_1.class);
                 //intent.putStringArrayListExtra("newlist",list);
                 //startService(intent);

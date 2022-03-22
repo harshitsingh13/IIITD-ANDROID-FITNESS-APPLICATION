@@ -11,7 +11,7 @@
         android:layout_height="match_parent">
 
         <RelativeLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical" >
 
@@ -47,7 +47,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/head1"
                 android:background="@color/underline"
-                android:text="Step 1:\nFind a comfortable place to sit, and a posture that is both alert and relaxed at the
+                android:text="STEP 1:\nFind a comfortable place to sit, and a posture that is both alert and relaxed at the
 same time. See if you can make the spine erect, without being too rigid."
                 android:textColor="@color/black"
                 android:textSize="20dp"
@@ -66,8 +66,7 @@ same time. See if you can make the spine erect, without being too rigid."
                 android:layout_height="wrap_content"
                 android:layout_below="@id/img1"
                 android:background="@color/underline"
-                android:text="STEP 2\n
-Close your eyes (or leave them slightly open if you prefer), and take a few slow
+                android:text="STEP 2\nClose your eyes (or leave them slightly open if you prefer), and take a few slow
 breaths. Take a few moments to loosen your body from your head to your toes, and
 take a few more deep breaths."
                 android:textColor="@color/black"
@@ -87,8 +86,7 @@ take a few more deep breaths."
                 android:layout_height="wrap_content"
                 android:layout_below="@id/img2"
                 android:background="@color/underline"
-                android:text="STEP 3\n
-Stop to notice the sensations throughout your body — the warmth, the coolness or
+                android:text="STEP 3\nStop to notice the sensations throughout your body — the warmth, the coolness or
 any discomfort. Be aware of them, but try not to fidget too much."
                 android:textColor="@color/black"
                 android:textSize="20dp"
@@ -107,8 +105,7 @@ any discomfort. Be aware of them, but try not to fidget too much."
                 android:layout_height="wrap_content"
                 android:layout_below="@id/img3"
                 android:background="@color/underline"
-                android:text="STEP 4\n
-Pick one sensation — such as the feeling of your breath going in and out — and
+                android:text="STEP 4\nPick one sensation — such as the feeling of your breath going in and out — and
 devote your attention to it. Just focus on that."
                 android:textColor="@color/black"
                 android:textSize="20dp"
@@ -128,8 +125,7 @@ devote your attention to it. Just focus on that."
                 android:layout_height="wrap_content"
                 android:layout_below="@id/img4"
                 android:background="@color/underline"
-                android:text="STEP 5\n
-When your mind wanders, bring your attention back to the breath. After a few
+                android:text="STEP 5\nWhen your mind wanders, bring your attention back to the breath. After a few
 moments, your mind may wander again. Once again, notice that and simply return
 your attention back to the present moment."
                 android:textColor="@color/black"
@@ -150,8 +146,7 @@ your attention back to the present moment."
                 android:layout_height="wrap_content"
                 android:layout_below="@id/img5"
                 android:background="@color/underline"
-                android:text="STEP 6\n
-When you’re ready — after one minute, 10 minutes or 30 minutes — open your
+                android:text="STEP 6\nWhen you’re ready — after one minute, 10 minutes or 30 minutes — open your
 eyes. Though your formal meditation practice may have ended, your mindful
 awareness can continue throughout the day."
                 android:textColor="@color/black"
@@ -193,8 +188,7 @@ awareness can continue throughout the day."
                 android:layout_height="wrap_content"
                 android:layout_below="@id/head2"
                 android:background="@color/underline"
-                android:text="STEP 1\n
-During a meditation session, your mind will inevitably wander off."
+                android:text="STEP 1\nDuring a meditation session, your mind will inevitably wander off."
                 android:textColor="@color/black"
                 android:textSize="20dp"
                 android:textStyle="italic" />
@@ -213,8 +207,7 @@ During a meditation session, your mind will inevitably wander off."
                 android:layout_height="wrap_content"
                 android:layout_below="@id/img21"
                 android:background="@color/underline"
-                android:text="STEP 2\n
-When it does, notice what was distracting you, then take a moment and pause. Let go of the
+                android:text="STEP 2\nWhen it does, notice what was distracting you, then take a moment and pause. Let go of the
 thought, and gently return your awareness to the breath, being present for each inhalation and
 exhalation."
                 android:textColor="@color/black"
@@ -235,8 +228,7 @@ exhalation."
                 android:layout_height="wrap_content"
                 android:layout_below="@id/img22"
                 android:background="@color/underline"
-                android:text="STEP 3\n
-Don’t judge your thoughts. Thinking is natural, and there’s nothing inherently good or bad
+                android:text="STEP 3\nDon’t judge your thoughts. Thinking is natural, and there’s nothing inherently good or bad
 about it. It’s simply what the mind does. Just come back to the present moment."
                 android:textColor="@color/black"
                 android:textSize="20dp"
@@ -256,8 +248,7 @@ about it. It’s simply what the mind does. Just come back to the present moment
                 android:layout_height="wrap_content"
                 android:layout_below="@id/img23"
                 android:background="@color/underline"
-                android:text="STEP 4\n
-Inevitably, your mind will wander again. Just acknowledge whatever it is you were thinking
+                android:text="STEP 4\nInevitably, your mind will wander again. Just acknowledge whatever it is you were thinking
 of and resume your meditation."
                 android:textColor="@color/black"
                 android:textSize="20dp"
@@ -277,9 +268,7 @@ of and resume your meditation."
                 android:layout_height="wrap_content"
                 android:layout_below="@id/img24"
                 android:background="@color/underline"
-                android:text="STEP 5\n
-With time, it will become easier to keep your attention focused on the breath or the body. But
-even for the most experienced meditators, the mind is prone to wander. When it does, begin
+                android:text="STEP 5\nWith time, it will become easier to keep your attention focused on the breath or the body. But even for the most experienced meditators, the mind is prone to wander. When it does, begin
 again."
                 android:textColor="@color/black"
                 android:textSize="20dp"
@@ -506,18 +495,18 @@ head to the toes."
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
                 android:layout_below="@id/body41"
-                android:background="@drawable/bodyscan"
+                android:background="@drawable/body_scan"
                 />
 
             <TextView
                 android:id="@+id/aud2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/img61"
+                android:layout_below="@+id/img41"
                 android:background="@color/underline"
+                android:text="Play Audio: "
                 android:gravity="center"
                 android:padding="10dp"
-                android:text="Play Audio: "
                 android:textColor="@color/black"
                 android:textSize="20dp"
                 android:textStyle="italic" />
@@ -593,7 +582,7 @@ before you try to walk and meditate at the same time."
                 android:id="@+id/aud3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/img61"
+                android:layout_below="@+id/img51"
                 android:background="@color/underline"
                 android:gravity="center"
                 android:padding="10dp"
@@ -678,8 +667,8 @@ attention."
                 android:padding="10dp"
                 android:text="Play Audio: "
                 android:textColor="@color/black"
-                android:textSize="22dp"
-                android:textStyle="bold" />
+                android:textSize="20dp"
+                android:textStyle="italic" />
 
             <Button
                 android:id="@+id/play61"

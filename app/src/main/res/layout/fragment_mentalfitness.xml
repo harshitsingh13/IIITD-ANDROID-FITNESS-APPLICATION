@@ -7,65 +7,85 @@
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/mentft"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:text="MENTAL FITNESS"
         android:textAlignment="center"
         android:textSize="28dp"
         android:padding="10dp"
-        android:textColor="@color/black"
+        android:background="@color/teal_200"
+        android:textColor="@color/bl"
         android:textStyle="bold"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imggif1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/mentft"
+        android:background="@drawable/source"
+        />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imggif2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/mentft"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/imggif1"
+        android:background="@drawable/mentimg" />
+
     <android.widget.Button
         android:id="@+id/stress_management"
-        android:layout_width="300dp"
+        android:layout_width="320dp"
         android:layout_height="70dp"
         android:background="@drawable/buttonback"
         android:text="stress management"
         android:textColor="@color/white"
         android:textSize="24dp"
         android:textStyle="bold"
-        android:translationX="50dp"
-        android:translationY="270dp" />
+        android:translationX="40dp"
+        android:translationY="290dp" />
 
     <android.widget.Button
         android:id="@+id/meditation"
-        android:layout_width="300dp"
+        android:layout_width="320dp"
         android:layout_height="70dp"
         android:background="@drawable/buttonback"
         android:padding="20dp"
-        android:text="meditation"
+        android:text="meditation program"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="24dp"
         android:textStyle="bold"
-        android:translationX="50dp"
-        android:translationY="370dp" />
+        android:translationX="40dp"
+        android:translationY="390dp" />
 
 
     <android.widget.Button
         android:id="@+id/anger_management"
-        android:layout_width="300dp"
+        android:layout_width="320dp"
         android:layout_height="70dp"
         android:background="@drawable/buttonback"
         android:text="anger management"
         android:textColor="@color/white"
         android:textSize="24dp"
         android:textStyle="bold"
-        android:translationX="50dp"
-        android:translationY="470dp" />
+        android:translationX="40dp"
+        android:translationY="490dp" />
 
     <android.widget.Button
         android:id="@+id/mental_instructor"
-        android:layout_width="300dp"
+        android:layout_width="320dp"
         android:layout_height="70dp"
         android:background="@drawable/buttonback"
         android:padding="20dp"
-        android:text="instructor timing"
+        android:text="instructor schedule"
         android:textColor="@color/white"
         android:textSize="24dp"
         android:textStyle="bold"
-        android:translationX="50dp"
-        android:translationY="570dp" />
+        android:translationX="40dp"
+        android:translationY="590dp" />
 
 
 </RelativeLayout>
