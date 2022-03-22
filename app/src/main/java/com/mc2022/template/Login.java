@@ -25,6 +25,7 @@ public class Login extends AppCompatActivity {
     FirebaseAuth fauth;
     Button loginbutton;
     Button createacc;
+    private static final String TAG = "msg";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,7 +68,9 @@ public class Login extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
                             Toast.makeText(Login.this, "Logged In Successfully", Toast.LENGTH_SHORT).show();
+
                             startActivity(new Intent(getApplicationContext(), userprofile.class));
+
                         }
                         else{
                             Toast.makeText(Login.this, "Error!!!" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
@@ -87,5 +90,37 @@ public class Login extends AppCompatActivity {
                 //startActivity(new Intent(getApplicationContext(), Register.class));
             }
         });
+    }
+
+    android.widget.Toast Toast;
+    @Override
+    protected  void onResume(){// for onresume activity cycle
+        super.onResume();
+        Log.i(TAG,"Currently on onResume");
+        Toast.makeText(getApplicationContext(),"Currently on onResume", Toast.LENGTH_SHORT).show();
+    }
+    @Override
+    protected  void onStart(){// for onstart activity cycle
+        super.onStart();
+        Log.i(TAG,"Currently on onStart");
+        Toast.makeText(getApplicationContext(),"Currently on onResume", Toast.LENGTH_SHORT).show();
+    }
+    @Override
+    protected  void onStop(){// for onstop activity cycle
+        super.onStop();
+        Log.i(TAG,"Currently on onStop");
+        Toast.makeText(getApplicationContext(),"Currently on onResume", Toast.LENGTH_SHORT).show();
+    }
+    @Override
+    protected  void onDestroy(){// for ondestroy activity cycle
+        super.onDestroy();
+        Log.i(TAG,"Currently on onDestroy");
+        Toast.makeText(getApplicationContext(),"Currently on onResume", Toast.LENGTH_SHORT).show();
+    }
+    @Override
+    protected  void onPause(){// for onpause activity cycle
+        super.onPause();
+        Log.i(TAG,"Currently on onPause");
+        Toast.makeText(getApplicationContext(),"Currently on onResume", Toast.LENGTH_SHORT).show();
     }
 }

@@ -1,6 +1,7 @@
 package com.mc2022.template;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
@@ -18,17 +19,22 @@ import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.FirebaseFirestoreException;
 
 public class userprofile extends AppCompatActivity {
 
     Button sendcode,b1;
     FirebaseAuth fauth;
     FirebaseFirestore fstore;
-    TextView name, email, number, age, gender, emailmessage, userprofile;
+    TextView name, email, number, age, gender, emailmessage, userprofile, userheight, userweight;
     String userID;
     options option=new options();
     FrameLayout fr;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,6 +46,9 @@ public class userprofile extends AppCompatActivity {
         gender=findViewById(R.id.profilegender);
         number=findViewById(R.id.profilenumber);
         userprofile=findViewById(R.id.userprofile);
+        userweight=findViewById(R.id.weight);
+        userheight=findViewById(R.id.height);
+        b1=(Button) findViewById(R.id.startbutton);
 
         sendcode=findViewById(R.id.sendcode);
         emailmessage=findViewById(R.id.verifymessage);
@@ -47,12 +56,32 @@ public class userprofile extends AppCompatActivity {
         fauth = FirebaseAuth.getInstance();
         fstore=FirebaseFirestore.getInstance();
         userID=fauth.getCurrentUser().getUid();
+        //////////////////////////////////////////////////////////
+        //showing data on screen
 
+        DocumentReference documentReference= fstore.collection("users").document(userID);
+        documentReference.addSnapshotListener(this, new EventListener<DocumentSnapshot>() {
+            @Override
+            public void onEvent(@Nullable DocumentSnapshot documentSnapshot, @Nullable FirebaseFirestoreException e) {
+
+                name.setText(documentSnapshot.getString("name"));
+                email.setText(documentSnapshot.getString("email"));
+                age.setText(documentSnapshot.getString("age"));
+                number.setText(documentSnapshot.getString("number"));
+                gender.setText(documentSnapshot.getString("gender"));
+                userheight.setText(documentSnapshot.getString("height"));
+                userweight.setText(documentSnapshot.getString("weight"));
+
+
+            }
+        });
+
+        //////////////////////////////////////////////////////////
         FirebaseUser user= fauth.getCurrentUser();
         if(!user.isEmailVerified()){
             sendcode.setVisibility(View.VISIBLE);
             emailmessage.setVisibility(View.VISIBLE);
-
+            b1.setVisibility(View.INVISIBLE);
             sendcode.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -77,7 +106,7 @@ public class userprofile extends AppCompatActivity {
             });
         }
         fr=findViewById(R.id.frameLayout);
-        b1=(Button) findViewById(R.id.startbutton);//defining button for 'submit' button functionality
+        //defining button for 'submit' button functionality
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -93,6 +122,9 @@ public class userprofile extends AppCompatActivity {
                 sendcode.setVisibility(view.GONE);
                 emailmessage.setVisibility(view.GONE);
                 b1.setVisibility(view.GONE);
+                userheight.setVisibility(view.GONE);
+                userweight.setVisibility(view.GONE);
+
                 //fr.setVisibility(view.INVISIBLE);
                 fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();

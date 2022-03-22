@@ -31,13 +31,13 @@
         android:id="@+id/verifymessage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/logoutbutton"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
         android:gravity="center"
         android:padding="5dp"
-        android:layout_below="@id/logoutbutton"
         android:text="Email is not Verified"
         android:textColor="@color/teal_700"
         android:textColorHint="@color/white"
@@ -58,13 +58,6 @@
         android:visibility="invisible"
         tools:visibility="invisible" />
 
-        <Button
-            android:id="@+id/startbutton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Start"
-            android:translationX="10dp"
-            android:translationY="500dp" />
 
         <TextView
             android:id="@+id/userprofile"
@@ -85,36 +78,42 @@
             android:textStyle="bold" />
 
 
-        <TextView
-            android:id="@+id/profilename"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/userprofile"
-            android:layout_margin="10dp"
-            android:background="@color/black"
-            android:gravity="left"
-            android:hint="User name"
-            android:padding="5dp"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white"
-            android:textSize="15dp"
-            android:textStyle="bold" />
+    <TextView
+        android:id="@+id/profilename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userprofile"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/black"
+        android:gravity="left"
+        android:hint="User Name"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold" />
 
 
-        <TextView
-            android:id="@+id/profilegender"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/profilename"
-            android:layout_margin="10dp"
-            android:background="@color/black"
-            android:gravity="left"
-            android:hint="User gender"
-            android:padding="5dp"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white"
-            android:textSize="15dp"
-            android:textStyle="bold" />
+    <TextView
+        android:id="@+id/profilegender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profilename"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/black"
+        android:gravity="left"
+        android:hint="User Gender"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold" />
 
         <TextView
             android:id="@+id/profileemail"
@@ -124,7 +123,7 @@
             android:layout_margin="10dp"
             android:background="@color/black"
             android:gravity="left"
-            android:hint="User email"
+            android:hint="User Email"
             android:padding="5dp"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
@@ -139,27 +138,74 @@
             android:layout_margin="10dp"
             android:background="@color/black"
             android:gravity="left"
-            android:hint="User age"
+            android:hint="User Age"
             android:padding="5dp"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
             android:textSize="15dp"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/profilenumber"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/profileage"
-            android:layout_margin="10dp"
-            android:background="@color/black"
-            android:gravity="left"
-            android:hint="User Number"
-            android:padding="5dp"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white"
-            android:textSize="15dp"
-            android:textStyle="bold" />
+    <TextView
+        android:id="@+id/profilenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileage"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/black"
+        android:gravity="left"
+        android:hint="User Mobile Number"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profilenumber"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/black"
+        android:gravity="left"
+        android:hint="User height"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/height"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/black"
+        android:gravity="left"
+        android:hint="User weight"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/startbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weight"
+        android:text="Start" />
+
 
 
 

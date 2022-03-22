@@ -29,7 +29,7 @@ import java.util.Map;
 
 public class Register extends AppCompatActivity {
 
-    EditText ETname, ETpassword, ETemail, ETgender, ETage,ETnumber;
+    EditText ETname, ETpassword, ETemail, ETgender, ETage,ETnumber, ETheight, ETweight;
     Button registerbutton;
     FirebaseAuth fauth;
     FirebaseFirestore fstore;
@@ -53,6 +53,9 @@ public class Register extends AppCompatActivity {
         ETnumber=findViewById(R.id.number);
         registerbutton = findViewById(R.id.registerbutton);
         TVloginhere = findViewById(R.id.loginhere);
+        ETheight=findViewById(R.id.height);
+        ETweight=findViewById(R.id.weight);
+
 
         fauth = FirebaseAuth.getInstance();
         fstore=FirebaseFirestore.getInstance();
@@ -73,6 +76,8 @@ public class Register extends AppCompatActivity {
                 String age=ETage.getText().toString();
                 String gender=ETgender.getText().toString();
                 String number= ETnumber.getText().toString();
+                String height=ETheight.getText().toString();
+                String weight=ETweight.getText().toString();
 
                 revstring= reverseString(email);
                 String domain= reverseString(revstring.substring(0, 11));
@@ -82,7 +87,10 @@ public class Register extends AppCompatActivity {
                     return;
                 }
 
-
+                if (number.length()!=10 ) {
+                    ETnumber.setError("Enter correct number (without country code)");
+                    return;
+                }
 
                 if (TextUtils.isEmpty(email) ) {
                     ETemail.setError("Email is required");
@@ -130,6 +138,9 @@ public class Register extends AppCompatActivity {
                             user.put("gender", gender);
                             user.put("email", email);
                             user.put("number", number);
+                            user.put("height", height);
+                            user.put("weight", weight);
+
                             documentReference.set(user).addOnSuccessListener(new OnSuccessListener<Void>() {
                                 @Override
                                 public void onSuccess(Void unused) {

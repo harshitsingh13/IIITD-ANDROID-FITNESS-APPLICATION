@@ -1,5 +1,6 @@
 package com.mc2022.template;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -91,6 +92,18 @@ public class options extends Fragment {
                 fragmentTransaction.replace(R.id.frameLayout,mf);
                 fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
+
+        b5=(Button) view.findViewById(R.id.option5);//defining button for 'start service' button functionality
+        b5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(getActivity(),pedometer.class);
+                startActivity(intent);
                 //Intent intent=new Intent(MainActivity.this,Service_1.class);
                 //intent.putStringArrayListExtra("newlist",list);
                 //startService(intent);
