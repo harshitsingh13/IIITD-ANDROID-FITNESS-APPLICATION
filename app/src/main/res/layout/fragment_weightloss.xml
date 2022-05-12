@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
+    tools:context=".musclegain">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/black"
+                android:text="DAY-1"
+                android:textAlignment="center"
+                android:textColor="@color/underline"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="After starting your day with cucumber water, have oats porridge and mixed nuts for breakfast.\nNext, have a roti with dal and gajar matar sabzi for lunch.\nFollow that up with dal and lauki sabzi along with a roti for dinner.
+"               android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="180dp"
+                android:text="6:30 AM
+\nCucumber Detox Water (1 glass)
+
+\nOats Porridge in Skimmed Milk (1 bowl)
+\n8:00 AM
+\nMixed Nuts (25 grams)
+\n12:00 PM
+\nSkimmed Milk Paneer (100 grams)
+\n2:00 PM
+\nMixed Vegetable Salad (1 katori)
+
+\nDal(1 katori)Gajar Matar Sabzi (1 katori)
+\n2:10 PM
+\nRoti (1 roti/chapati)
+\n4:00 PM
+\nCut Fruits (1 cup) Buttermilk (1 glass)
+\n5:30 PM
+\nTea with Less Sugar and Milk (1 teacup)
+\n8:50 PM
+\nMixed Vegetable Salad (1 katori)
+\n9:00 PM
+\nDal (1 katori) Lauki Sabzi (1 katori)
+
+\nRoti (1 roti/chapati)
+
+"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="640dp"
+                android:background="@color/black"
+                android:text="DAY-2"
+                android:textAlignment="center"
+                android:textColor="@color/underline"
+                android:textSize="26dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="670dp"
+                android:padding="5dp"
+                android:text="On the second day, eat a mixed vegetable stuffed roti along with curd for breakfast.
+\nFor lunch, have half a katori of methi rice along with lentil curry.
+\nNext, end your day with sautéed vegetables and green chutney.
+"
+                android:textColor="@color/black"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="810dp"
+                android:text="6:30 AM
+\nCucumber Detox Water (1 glass)
+\n8:00 AM
+\nCurd (1.5 katori) Mixed Vegetable Stuffed Roti (2 pieces)
+\n12:00 PM
+\nSkimmed Milk Paneer (100 grams)
+\n2:00 PM
+\nMixed Vegetable Salad (1 katori)
+\n2:10 PM
+\nLentil Curry (0.75 bowl) Methi Rice (0.5 katori)
+\n4:00 PM
+\nApple (0.5 small (2-3/4″ dia)) Buttermilk (1 glass)
+\n5:30 PM
+\nCoffee with Milk and Less Sugar (0.5 tea cup)
+\n8:50 PM
+\nMixed Vegetable Salad (1 katori)
+\nSauteed Vegetables with Paneer (1 katori) Roti (1 roti/chapati)
+\n9:00 PM
+\nGreen Chutney (2 tablespoon)
+
+
+"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1290dp"
+                android:background="@color/black"
+                android:text="DAY-3"
+                android:textAlignment="center"
+                android:textColor="@color/underline"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1320dp"
+                android:padding="5dp"
+                android:text="Breakfast on day 3 would include Multigrain Toast and Skim Milk Yogurt.
+\nIn the afternoon, have sauteed vegetables along with paneer and some green chutney.
+\nHalf a katori of methi rice and some lentil curry to make sure you end the day on a healthy note.
+
+"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1480dp"
+                android:text="6:30 AM
+\nCucumber Detox Water (1 glass)
+\n8:00 AM
+\nSkim Milk Yoghurt (1 cup (8 fl oz)) Multigrain Toast (2 toast)
+\n12:00 PM
+\nSkimmed Milk Paneer (100 grams)
+\n2:00 PM
+\nMixed Vegetable Salad (1 katori)
+\nSauteed Vegetables with Paneer (1 katori) Roti (1 roti/chapati)
+\n2:10 PM
+\nGreen Chutney (2 tablespoon)
+\n4:00 PM
+\nBanana (0.5 small (6″ to 6-7/8″ long)) Buttermilk (1 glass)
+\n5:30 PM
+\nTea with Less Sugar and Milk (1 teacup)
+\n8:50 PM
+\nMixed Vegetable Salad (1 katori)
+\n9:00 PM
+\nLentil Curry (0.75 bowl) Methi Rice (0.5 katori)
+
+"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1970dp"
+                android:background="@color/black"
+                android:text="DAY-4"
+                android:textAlignment="center"
+                android:textColor="@color/underline"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2000dp"
+                android:padding="5dp"
+                android:text="Start Day 4 with a Fruit and Nuts Yogurt Smoothie and Egg Omelette
+\nFollow that up with Moong Dal, Bhindi Sabzi, and roti.
+\nComplete the day’s food intake with steamed rice and palak chole.
+
+"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2140dp"
+                android:text="
+6:30 AM
+\nCucumber Detox Water (1 glass)
+\nFruit and Nuts Yogurt Smoothie (0.75 glass)
+\n8:00 AM
+\nEgg Omelette (1 serve(one egg))
+\n12:00 PM
+\nSkimmed Milk Paneer (100 grams)
+\n2:00 PM
+\nMixed Vegetable Salad (1 katori)
+
+\nGreen Gram Whole Dal Cooked (1 katori) Bhindi sabzi (1 katori)
+\n2:10 PM
+\nRoti (1 roti/chapati)
+\n4:00 PM
+\nOrange (1 fruit (2-5/8″ dia)) Buttermilk (1 glass)
+\n5:30 PM
+\nCoffee with Milk and Less Sugar (0.5 teacup)
+\n8:50 PM
+\nMixed Vegetable Salad (1 katori)
+\n9:00 PM
+\nPalak Chole (1 bowl) Steamed Rice (0.5 katori)
+
+"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2610dp"
+                android:background="@color/black"
+                android:text="DAY-5"
+                android:textAlignment="center"
+                android:textColor="@color/underline"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2640dp"
+                android:padding="5dp"
+                android:text="Have a glass of skimmed milk and peas poha for breakfast on the fifth day.
+\nEat a missi roti with low fat paneer curry in the afternoon.
+\nEnd the day with roti, curd and aloo baingan tamatar ki sabzi.
+"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2780dp"
+                android:text="
+6:30 AM
+\nCucumber Detox Water (1 glass)
+\n8:00 AM
+\nSkimmed Milk (1 glass) Peas Poha (1.5 katori)
+\n12:00 PM
+\nSkimmed Milk Paneer (100 grams)
+\n2:00 PM
+\nMixed Vegetable Salad (1 katori)
+\n2:10 PM
+\nLow Fat Paneer Curry (1.5 katori) Missi Roti (1 roti)
+\n4:00 PM
+\nPapaya (1 cup 1″ pieces) Buttermilk (1 glass)
+\n5:30 PM
+\nTea with Less Sugar and Milk (1 teacup)
+\n8:50 PM
+\nMixed Vegetable Salad (1 katori)
+\nCurd (1.5 katori) Aloo Baingan Tamatar Ki Sabzi (1 katori)
+\n9:00 PM
+\nRoti (1 roti/chapati)
+"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3250dp"
+                android:background="@color/black"
+                android:text="DAY-6"
+                android:textAlignment="center"
+                android:textColor="@color/underline"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3280dp"
+                android:padding="5dp"
+                android:text="On Day 6, have idli with sambar for breakfast
+\nFor lunch, roti with curd and aloo baingan tamatar ki sabzi
+\nTo end Day 6, eat green gram with roti and bhindi sabzi
+"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3400dp"
+                android:text="6:30 AM
+\nCucumber Detox Water (1 glass)
+\n8:00 AM
+\nMixed Sambar (1 bowl) Idli (2 idli)
+\n12:00 PM
+\nSkimmed Milk Paneer (100 grams)
+\n2:00 PM
+\nMixed Vegetable Salad (1 katori)
+
+\nCurd (1.5 katori) Aloo Baingan Tamatar Ki Sabzi (1 katori)
+\n2:10 PM
+\nRoti (1 roti/chapati)
+\n4:00 PM
+\nCut Fruits (1 cup) Buttermilk (1 glass)
+\n5:30 PM
+\nCoffee with Milk and Less Sugar (0.5 tea cup)
+\n8:50 PM
+\nMixed Vegetable Salad (1 katori)
+
+\nGreen Gram Whole Dal Cooked (1 katori)Bhindi sabzi (1 katori)
+\n9:00 PM
+\nRoti (1 roti/chapati)
+
+
+"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3890dp"
+                android:background="@color/black"
+                android:text="DAY-7"
+                android:textAlignment="center"
+                android:textColor="@color/underline"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3920dp"
+                android:padding="5dp"
+                android:text="On the seventh day, start with besan chilla and green garlic chutney.
+\nHave steamed rice and palak chole for lunch.
+\nEnd the week on a healthy note with low fat paneer curry and missi roti.
+"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4040dp"
+                android:text="6:30 AM
+\nCucumber Detox Water (1 glass)
+\n8:00 AM
+\nBesan Chilla (2 cheela) Green Garlic Chutney (3 tablespoon)
+\n12:00 PM
+\nSkimmed Milk Paneer (100 grams)
+\n2:00 PM
+\nMixed Vegetable Salad (1 katori)
+\n2:10 PM
+\nPalak Chole (1 bowl) Steamed Rice (0.5 katori)
+\n4:00 PM
+\nApple(0.5 small (2-3/4″ dia)) Buttermilk (1 glass)
+\n5:30 PM
+\nTea with Less Sugar and Milk (1 teacup)
+\n8:50 PM
+\nMixed Vegetable Salad (1 katori)
+\n9:00 PM
+\nLow Fat Paneer Curry (1 katori) Missi Roti (1 roti)
+
+"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

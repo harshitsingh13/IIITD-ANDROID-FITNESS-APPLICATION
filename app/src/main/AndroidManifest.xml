@@ -14,20 +14,14 @@
         android:roundIcon="@drawable/app_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity
-            android:name=".weight_gain"
-            android:exported="false" />
-        <activity
-            android:name=".muscle_gain"
-            android:exported="false" />
-        <activity
-            android:name=".diet_plan"
-            android:exported="false" />
+
         <activity
             android:name=".pedometer"
             android:exported="false" />
+
+        //here .userprofile
         <activity
-            android:name=".userprofile"
+            android:name=".Login"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
@@ -35,8 +29,10 @@
         <activity
             android:name=".Register"
             android:exported="false" />
+
+        //here .Login
         <activity
-            android:name=".Login"
+            android:name=".userprofile"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -5,7 +5,7 @@
     android:layout_marginTop="0dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".diet_plan">
+    tools:context=".dietplans">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -22,9 +22,9 @@
 
     <pl.droidsonroids.gif.GifImageView
         android:id="@+id/imageView14"
-        android:layout_width="350dp"
-        android:layout_height="150dp"
-        android:translationX="20dp"
+        android:layout_width="400dp"
+        android:layout_height="180dp"
+        android:translationX="0dp"
         android:translationY="50dp"
         android:padding="10dp"
         android:src="@drawable/eat_well_feel_good" />
@@ -39,7 +39,7 @@
         android:textSize="20dp"
         android:textStyle="bold"
         android:translationX="50dp"
-        android:translationY="200dp" />
+        android:translationY="250dp" />
 
     <android.widget.Button
         android:id="@+id/wtgain"
@@ -51,7 +51,7 @@
         android:textSize="20dp"
         android:textStyle="bold"
         android:translationX="50dp"
-        android:translationY="270dp" />
+        android:translationY="320dp" />
 
     <android.widget.Button
         android:id="@+id/wtloss"
@@ -63,21 +63,21 @@
         android:textSize="20dp"
         android:textStyle="bold"
         android:translationX="50dp"
-        android:translationY="340dp" />
+        android:translationY="390dp" />
 
     <android.widget.Button
         android:id="@+id/inscntrldiet"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:background="@drawable/optionbuton"
-        android:text="INSULINE CONTROL DIET"
+        android:text="Diabetes meal plan"
         android:textColor="@color/white"
         android:textSize="20dp"
         android:textStyle="bold"
         android:translationX="50dp"
-        android:translationY="410dp" />
+        android:translationY="460dp" />
 
-    <android.widget.Button
+    <!--android.widget.Button
         android:id="@+id/bpctrl"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
@@ -87,7 +87,7 @@
         android:textSize="20dp"
         android:textStyle="bold"
         android:translationX="50dp"
-        android:translationY="480dp" />
+        android:translationY="480dp" /-->
 
     <!--android.widget.Button
         android:id="@+id/option6"
