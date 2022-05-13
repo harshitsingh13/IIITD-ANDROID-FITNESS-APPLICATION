@@ -30,6 +30,7 @@ public class dietplans extends Fragment {
     musclegain mgain=new musclegain();
     weightgain wgain=new weightgain();
     weightloss wloss=new weightloss();
+    diabeticplan dplan=new diabeticplan();
     public dietplans() {
         // Required empty public constructor
     }
@@ -112,6 +113,20 @@ public class dietplans extends Fragment {
             }
         });
 
+        b4=(Button) view.findViewById(R.id.inscntrldiet);//defining button for 'start service' button functionality
+        b4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frameLayout,dplan);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+                //Intent intent=new Intent(MainActivity.this,Service_1.class);
+                //intent.putStringArrayListExtra("newlist",list);
+                //startService(intent);
+            }
+        });
 
         return view;
     }
